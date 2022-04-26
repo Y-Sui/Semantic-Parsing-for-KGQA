@@ -10,17 +10,9 @@ summarizer = pipeline(task="summarization", model=model, tokenizer=tokenizer)
 # input_query = ["what are the languages spoken in the movies whose directors also directed [Son of Dracula]",
 #          "what are the languages spoken in the movies whose directors also directed [Son of Dracula]"]
 input_query_num = 50
-input_query = pd.read_csv("./data/eval_csv.csv")["text"]
+input_query = pd.read_csv("./data/eval_csv_MetaQA.csv")["text"]
 input_query = input_query[:input_query_num].to_list()
-golden_path_target = pd.read_csv("./data/eval_csv.csv")["summary"]
-golden_path_target = golden_path_target[:input_query_num].to_list()
-
-# input_query = ["what are the languages spoken in the movies whose directors also directed [Son of Dracula]",
-#          "what are the languages spoken in the movies whose directors also directed [Son of Dracula]"]
-input_query_num = 50
-input_query = pd.read_csv("./data/eval_csv.csv")["text"]
-input_query = input_query[:input_query_num].to_list()
-golden_path_target = pd.read_csv("./data/eval_csv.csv")["summary"]
+golden_path_target = pd.read_csv("./data/eval_csv_MetaQA.csv")["summary"]
 golden_path_target = golden_path_target[:input_query_num].to_list()
 
 # obtain the embedding representation of the path targets

@@ -17,12 +17,7 @@ Finetuning with custom dataset placed at [`data/`](https://github.com/nsi319/Fin
 
 ```bash
 python run.py \
-<<<<<<< HEAD
-    --model_name_or_path facebook/bart-base \
-    --train_file data/news_summary_train_small.csv \
-    --validation_file data/news_summary_valid_small.csv \
-=======
-    --model_name_or_path t5-small \
+    --model_name_or_path t5-base \
     --train_file ./data/train_csv_MetaQA.csv \
     --validation_file ./data/eval_csv_MetaQA.csv \
     --text_column text \
@@ -47,31 +42,6 @@ python run.py \
     
 ```
 
-```bash
-python run.py \
-    --model_name_or_path bart-base \
-    --train_file data/train_csv.csv \
-    --validation_file data/eval_csv.csv \
->>>>>>> 9285dc85d2c6f3fa5ab0961ccce5f49b772357a0
-    --text_column Text \
-    --summary_column Summary \
-    --output_dir output/ \
-    --overwrite_output_dir \
-    --do_train \
-    --do_eval \
-    --num_beams=3 \
-    --min_summ_length=100 \     
-    --max_summ_length=250 \   
-    --length_penalty=1.0 \
-    --per_device_train_batch_size=4 \
-    --per_device_eval_batch_size=4 \
-    --predict_with_generate 
-```
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 9285dc85d2c6f3fa5ab0961ccce5f49b772357a0
 To see all the possible command line options, run:
 
 ```bash
