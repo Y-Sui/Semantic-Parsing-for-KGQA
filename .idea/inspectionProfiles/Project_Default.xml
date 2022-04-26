@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+<<<<<<< HEAD
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="GPUtil" />
+            <item index="1" class="java.lang.String" itemvalue="pycocotools" />
+            <item index="2" class="java.lang.String" itemvalue="torch" />
+            <item index="3" class="java.lang.String" itemvalue="torchvision" />
+            <item index="4" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="5" class="java.lang.String" itemvalue="streamlit" />
+            <item index="6" class="java.lang.String" itemvalue="torchtext" />
+=======
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="torch" />
+            <item index="1" class="java.lang.String" itemvalue="python3" />
+            <item index="2" class="java.lang.String" itemvalue="google-pasta" />
+            <item index="3" class="java.lang.String" itemvalue="scipy" />
+            <item index="4" class="java.lang.String" itemvalue="decorator" />
+            <item index="5" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="6" class="java.lang.String" itemvalue="opt-einsum" />
+            <item index="7" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="8" class="java.lang.String" itemvalue="cloudpickle" />
+            <item index="9" class="java.lang.String" itemvalue="packaging" />
+            <item index="10" class="java.lang.String" itemvalue="regex" />
+            <item index="11" class="java.lang.String" itemvalue="pathlib" />
+            <item index="12" class="java.lang.String" itemvalue="sentencepiece" />
+            <item index="13" class="java.lang.String" itemvalue="astunparse" />
+            <item index="14" class="java.lang.String" itemvalue="Flask" />
+>>>>>>> 9285dc85d2c6f3fa5ab0961ccce5f49b772357a0
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+<<<<<<< HEAD
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N812" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.text" />
+=======
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Sort.heapSort.heapSort.__getitem__" />
+          <option value="bool.sum" />
+          <option value="int.backward" />
+>>>>>>> 9285dc85d2c6f3fa5ab0961ccce5f49b772357a0
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/finetuned_transformer.iml" filepath="$PROJECT_DIR$/.idea/finetuned_transformer.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/fintune-transformer.iml" filepath="$PROJECT_DIR$/.idea/fintune-transformer.iml" />
+>>>>>>> 9285dc85d2c6f3fa5ab0961ccce5f49b772357a0
+    </modules>
+  </component>
+</project>
