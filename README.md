@@ -12,7 +12,8 @@
 References: S-MART: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking: https://arxiv.org/abs/1609.08075.
 
 ### Ablation Study
-![](figures/图片2.png)
+- ![](figures/图片2.png)
+
 According to Table 1, the overall F1 of the whole baseline is 56.45%, which is unpromising but reasonable. Because the topic entity linking module obtains 72.64% F1, and the inferential chain prediction module only achieves 65.88% F1.
 Once simply replace the entity linking module from SMART-ACL (the module EL used in the baseline) to BERT + Joint training, it obtains almost **14% boosting** on this step.
 
