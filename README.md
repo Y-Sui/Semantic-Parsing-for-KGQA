@@ -52,7 +52,7 @@ Here's an sample of the training dataset. It has two columns, one is the text, a
 Tips: [] is the entity mention of the query sentences. To be noted that there's no need to label the entity mention at this stage.
 
 ### Script
-Run the pretrained model using the following script.
+Finetune the pretrained model using the following script.
 
 ```bash
 python run.py \
