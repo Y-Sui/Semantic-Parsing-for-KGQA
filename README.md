@@ -3,14 +3,12 @@
 ## Baseline
 - STAGG ([link](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ACL15-STAGG.pdf)) is one of the most foundation work of semantic parsing in knowledge graph based question answering. However, due to the old version of its components: **Entity linking (EL) and Inferential Chain Prediction**, it gives unpromising performance.
 - One intuition to solve this problem is to update the blocks of the whole model, like using transformers-based model as compensation.
-
-![](figures/Snipaste_2022-04-29_14-14-06.png)
+- ![](figures/Snipaste_2022-04-29_14-14-06.png)
 
 ## Mention Detection & Entity Linking
 - Entity Linking can be separated from the KGQA as a specific task. It means that the entity-linked model can be trained and processed as a separate component, thus providing a high degree of flexibility in this step.
 - In the original STAGG model, it use the **S-MART** to do the mention detection and entity linking. Here we use the **BERT-Joint Training**. You can use other strong entity-linking-based models to do the same work.
-
-![](figures/图片1.png)
+- ![](figures/图片1.png)
 References: S-MART: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking: https://arxiv.org/abs/1609.08075.
 
 ### Ablation Study
