@@ -1,29 +1,28 @@
 # Semantic Parsing for KGQA
 
 ## Baseline
-- STAGG is one of the most foundation work of semantic parsing in knowledge graph based question answering. However, due to the old version of its components: **Entity linking (EL) and Inferential Chain Prediction**, it gives unpromising performance.
+- STAGG ([link](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ACL15-STAGG.pdf)) is one of the most foundation work of semantic parsing in knowledge graph based question answering. However, due to the old version of its components: **Entity linking (EL) and Inferential Chain Prediction**, it gives unpromising performance.
 - One intuition to solve this problem is to update the blocks of the whole model, like using transformers-based model as compensation.
 
 ![](figures/Snipaste_2022-04-29_14-14-06.png)
 
 ## Mention Detection & Entity Linking
-- Entity Linking can be separated from the KGQA as a specific task.
-- From **S-MART** to **BERT-Joint Training**.
+- Entity Linking can be separated from the KGQA as a specific task. It means that the entity-linked model can be trained and processed as a separate component, thus providing a high degree of flexibility in this step.
+- In the original STAGG model, it use the **S-MART** to do the mention detection and entity linking. Here we use the **BERT-Joint Training**. You can use other strong entity-linking-based models to do the same work.
 
 ![](figures/图片1.png)
 References:S-MART: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking: https://arxiv.org/abs/1609.08075
 
 ### Ablation Study
 ![](figures/图片2.png)
-From Table 1, we have two observations:
-The overall F1 of the whole baseline is 56.45%, which is unpromising but reasonable. Because the topic entity linking module obtains 72.64% F1, and the inferential chain prediction module only achieves 65.88% F1.
-Once simply replace the entity linking module from SMART-ACL (the module EL used in the baseline) to BERT + Joint training, it obtains almost **14% boosting** on this important step.
+According to Table 1, the overall F1 of the whole baseline is 56.45%, which is unpromising but reasonable. Because the topic entity linking module obtains 72.64% F1, and the inferential chain prediction module only achieves 65.88% F1.
+Once simply replace the entity linking module from SMART-ACL (the module EL used in the baseline) to BERT + Joint training, it obtains almost **14% boosting** on this step.
+
+Tips: You can find more details of this flexiable component here ([entity-linking-tutorial](https://github.com/izuna385/Entity-Linking-Tutorial)).
 
 ## Core Inferential Chain Generation
 
-Inferential chain prediction involving two steps: Staged Query Graph Generation and inferential chain prediction
-
-The main objective of this module is to fine-tune and evaluate a model (pre-trained on a large-scale dataset) on domain-specical task. Here, to construct the core inferential chain generation, I have taken an example of finetuning sequence-to-sequence models such as T5, on an abstractive summarization task using the Trainer API from Hugging Face.
+The main objective of this module is to fine-tune and evaluate a model (pre-trained on a large-scale dataset) on the core inferential chain generation. Here, I have taken an example of finetuning sequence-to-sequence models such as T5, using the Trainer API from Hugging Face.
 
 * A number of pre-trained models can be finetuned such as:
     * T5 (small, base, large, 3B, 11B)
@@ -42,9 +41,9 @@ pandas
 ```
 
 ### Datasets
-Finetuning with MetaQA dataset placed at [`data`](https://github.com/Yuan-BertSui/seq2seq/tree/master/data).
+Finetuning with MetaQA dataset placed at [data](https://github.com/Yuan-BertSui/seq2seq/tree/master/data).
 
-Here's an sample of the training dataset, it has two columns, one is the text, and other one is the summary of the text (actually it is the inferential chain of the original text):
+Here's an sample of the training dataset. It has two columns, one is the text, and other one is the summary of the text (actually it is the inferential chain of the original text):
 | text                                                                                    | summary                              |
 |-----------------------------------------------------------------------------------------|--------------------------------------|
 | The films that share actors with the [Dil Chahta Hai] film have been released for years | movie_to_actor_to_movie_to_year      |
@@ -80,7 +79,7 @@ python run.py \
     --save_steps 10000 \
     --seed 1234 \
 ```
-The `model_name_or_path' refers to the pretrained_model files' name, ``train_file' refers to the training dataset of the model, 'validation_file' refers to the validation dataset of the model, 'text_column' refers to the query which needs to obtain the correponding core inferential chain, 'summary_column' refers to the corresponding core inferential of the query.
+The 'model_name_or_path' refers to the pretrained_model files' name, 'train_file' refers to the training dataset of the model, 'validation_file' refers to the validation dataset of the model, 'text_column' refers to the query which needs to obtain the correponding core inferential chain, 'summary_column' refers to the corresponding core inferential of the query.
 To be noted that the 'per_device_train/eval_batch_size' have a huge impact on the performance of the finetuning.
 
 To see all the possible command line options, run:
@@ -99,6 +98,7 @@ python inference.py
 
 1. We reload the tokenzier and model from the obtained pretrained model, and obtain the generated core inferential chain:
 ```python
+# reload the tokenzier and model from the obtained pretrained model
 tokenizer = AutoTokenizer.from_pretrained("checkpoint/t5-base")
 model = T5ForConditionalGeneration.from_pretrained("checkpoint/t5-base")
 summarizer = pipeline(task="summarization", model=model, tokenizer=tokenizer)
@@ -108,6 +108,7 @@ output_query = summarizer(input_query, max_length=20, min_length=18)
 ```
 2. Obtain the representation of the generated core inferential chain of the query.
 ```python
+# obtain the representation of the generated core inferential chain of the query
 output_query_list = []
 for i in range(len(output_query)):
     output_query_list.append(output_query[i]["summary_text"])
@@ -175,7 +176,7 @@ for i in range(len(output_query_list)):
 ```
 Through the inference model, the generated core inferential chain can match the golden one with accuracy of 94%.
 
-### Retrieval of answer(s) from KG
+## Retrieval of answer(s) from KG
 
 The final objective of a KG-QA system is to retrieve the correct answer from KG against a query q. To this end, we use the outputs of the different components aforementioned and feed them to complete the pre-written SPARQL sketchs. We can define a bunch of rules for different question-types and used a simple-mapping rules to map the queries to the sketches. 
 
