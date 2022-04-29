@@ -33,6 +33,14 @@ The main objective of this module is to fine-tune and evaluate a model (pre-trai
 
 Checkout [pre-trained models](https://huggingface.co/models) to see the checkpoints available for each of them.
 
+### Requirements
+```bash
+torch
+transformers
+datasets
+pandas
+```
+
 ### Datasets
 Finetuning with MetaQA dataset placed at [`data`](https://github.com/Yuan-BertSui/seq2seq/tree/master/data).
 
@@ -89,7 +97,97 @@ To see the inference model, please run the follow command:
 python inference.py
 ```
 
+1. We reload the tokenzier and model from the obtained pretrained model, and obtain the generated core inferential chain:
+```python
+tokenizer = AutoTokenizer.from_pretrained("checkpoint/t5-base")
+model = T5ForConditionalGeneration.from_pretrained("checkpoint/t5-base")
+summarizer = pipeline(task="summarization", model=model, tokenizer=tokenizer)
 
+# obtain the generated core inferential chain of the query,
+output_query = summarizer(input_query, max_length=20, min_length=18)
+```
+2. Obtain the representation of the generated core inferential chain of the query.
+```python
+output_query_list = []
+for i in range(len(output_query)):
+    output_query_list.append(output_query[i]["summary_text"])
+output_query_tokenzier = tokenizer(
+    output_query_list,
+    return_tensors="pt",
+    padding=True,
+    truncation=True
+)
+output_query_embedding = model.encoder(
+    input_ids=output_query_tokenzier["input_ids"],
+    attention_mask=output_query_tokenzier["attention_mask"],
+    return_dict=True
+)
+output_query_embedding = output_query_embedding.last_hidden_state
+```
+3. Obtain the representation of the golden core inferential chain of the query (groundtruth).
+```python
+# obtain the embedding representation of the path targets
+df = pd.read_csv("./data/train_csv.csv")
+df = df.drop_duplicates(subset=['summary'])
+path_targets = df["summary"].to_list()
+path_tokenzier = tokenizer(
+    path_targets,
+    return_tensors="pt",
+    padding=True,
+    truncation=True
+)
+path_target_embedding = model.encoder(
+    input_ids=path_tokenzier["input_ids"],
+    attention_mask=path_tokenzier["attention_mask"],
+    return_dict=True
+)
+path_target_embedding = path_target_embedding.last_hidden_state
+```
+4. To match the generated inferential chain to the golden one. One simple intuition is to calculate the cosine-similarity of the pair of inferential chain. 
+```python
+# calculate the vector similarity
+def vector_similarity(v1, v2):
+    # define the sentence vector
+    def sentence_vector(v):
+        sentence_vector = 0.0
+        for i in range(v.shape[0]):
+            sentence_vector += v[i]
+        return sentence_vector / v.shape[0]
+    v1, v2 = sentence_vector(v1), sentence_vector(v2)
+    return torch.cosine_similarity(v1, v2, dim=0, eps=1e-6)
+    
+# replace the output with the high similarity target path
+transfer_output = []
+for i in range(len(output_query_list)):
+    print(f"{output_query[i]['summary_text']}")
+    target_path_index = 0
+    max_score = 0.0
+    for j in range(len(path_targets)):
+        score = vector_similarity(output_query_embedding[i], path_target_embedding[j])
+        print(f"{path_targets[j]} score={score:.6f}")
+        if score > max_score:
+            max_score = score
+            target_path_index = j
+        else:
+            max_score = max_score
+    print(f"Results: {output_query[i]['summary_text']}-> {path_targets[target_path_index]} with confidence {max_score:.6f}")
+    transfer_output.append(path_targets[target_path_index])
+```
+Through the inference model, the generated core inferential chain can match the golden one with accuracy of 94%.
 
+### Retrieval of answer(s) from KG
 
+The final objective of a KG-QA system is to retrieve the correct answer from KG against a query q. To this end, we use the outputs of the different components aforementioned and feed them to complete the pre-written SPARQL sketchs. We can define a bunch of rules for different question-types and used a simple-mapping rules to map the queries to the sketches. 
 
+For e.g., consider the query, q = “which are the directors of the films written by the writer of The Green Mile?”. The output of aforementionde module contains all the information that is required to form a structured query such as SPARQL. Like:
+1. Linked Entities: e2: The Green Mile
+2. Inference Chain: movie_to_writer_to_movie_to_director
+we can fill a sketch using thses outputs. The generated SPARQL query is:
+```bash
+SELECT DISTINCT ?uri WHERE {
+<e2><movie writer><?x>
+<?x><writer movie><?y>
+<?y><movie director><?uri>
+}
+```
+Where, e2 is the unique identity assigned to "The Green Mile".
