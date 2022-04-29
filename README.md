@@ -11,7 +11,7 @@
 - In the original STAGG model, it use the **S-MART** to do the mention detection and entity linking. Here we use the **BERT-Joint Training**. You can use other strong entity-linking-based models to do the same work.
 
 ![](figures/图片1.png)
-References:S-MART: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking: https://arxiv.org/abs/1609.08075
+References: S-MART: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking: https://arxiv.org/abs/1609.08075.
 
 ### Ablation Study
 ![](figures/图片2.png)
@@ -96,7 +96,7 @@ To see the inference model, please run the follow command:
 python inference.py
 ```
 
-1. We reload the tokenzier and model from the obtained pretrained model, and obtain the generated core inferential chain:
+1. Reload the tokenzier and model from the obtained pretrained model, and obtain the generated core inferential chain:
 ```python
 # reload the tokenzier and model from the obtained pretrained model
 tokenizer = AutoTokenizer.from_pretrained("checkpoint/t5-base")
