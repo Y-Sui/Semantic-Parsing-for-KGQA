@@ -37,6 +37,7 @@ transformers
 datasets
 pandas
 ```
+The generated checkpoints of the fine-tuned T5 can be found at [checkpoints](https://www.dropbox.com/sh/qsd9rh9ivv7p0ms/AAAkHAs9TE68KwwqfJrk0pVCa?dl=0). We fine-tuned two models: t5-small and t5-base.
 
 ### Datasets
 Finetuning with MetaQA dataset placed at [data](https://github.com/Yuan-BertSui/seq2seq/tree/master/data).
