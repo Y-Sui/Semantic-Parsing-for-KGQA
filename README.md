@@ -52,7 +52,7 @@ Here's an sample of the training dataset. It has two columns, one is the text, a
 Tips: [] is the entity mention of the query sentences. To be noted that there's no need to label the entity mention at this stage.
 
 ### Script
-Run the pretrained model using the following script.
+Finetune the pretrained model using the following script.
 
 ```bash
 python run.py \
@@ -180,7 +180,7 @@ Through the inference model, the generated core inferential chain can match the 
 
 The final objective of a KG-QA system is to retrieve the correct answer from KG against a query q. To this end, we use the outputs of the different components aforementioned and feed them to complete the pre-written SPARQL sketchs. We can define a bunch of rules for different question-types and used a simple-mapping rules to map the queries to the sketches. 
 
-For e.g., consider the query, q = “which are the directors of the films written by the writer of The Green Mile?”. The output of aforementionde module contains all the information that is required to form a structured query such as SPARQL. Like:
+For e.g., consider the query, q = “which are the directors of the films written by the writer of The Green Mile?”. The output of the aforementioned module contains all the information that is required to form a structured query such as SPARQL. Like:
 1. Linked Entities: e2: The Green Mile
 2. Inference Chain: movie_to_writer_to_movie_to_director
 we can fill a sketch using thses outputs. The generated SPARQL query is:
