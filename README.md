@@ -88,6 +88,17 @@ To see all the possible command line options, run:
 python run.py --help
 ```
 
+### Soft-prompt-tuning
+
+Soft embedding code has been taken here: https://github.com/kipgparker/soft-prompt-tuning
+
+#### Why prompt-tuning?
+
+Prompt Tuning has recently become an important research direction in Natural Language Processing. In contrast to classical fine-tuning, which involves optimizing the weights of the entire network, (one style of) prompt tuning keeps the large language model (a.k.a. the "backbone") frozen and instead prepends a few learnable vectors to each input which are learnt in order to accomplish a task. This brings the number of parameters to train from O(millions) down to a few thousand while still achieving similar levels of performance. There are other benefits that have been found in the research community for prompt tuned models when compared to classically trained models.
+
+#### Scripts
+
+
 ### Inference
 Since the t5 is a generative model, the form of the generated sequence is uncertain. It needs to match the core inferential chain in our dataset. One simple intuition is to calculate the cosine similarity of both the generated sequence and the core inferential chain with the help of the embedding representation of the t5 model.
 
