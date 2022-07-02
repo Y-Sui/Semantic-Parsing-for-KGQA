@@ -1,3 +1,6 @@
 transformers
 datasets
 torch
+tokenizers==0.9.4
+rouge_score
+sentencepiece
