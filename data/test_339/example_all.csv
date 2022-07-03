@@ -1,0 +1,1256 @@
+summary,text
+movie_to_DoubanRating,What is the Movie1 rating?
+movie_to_DoubanRating,What is the rating of Movie1?
+movie_to_DoubanRating,What is the Douban rate of Movie1?
+movie_to_DoubanRating,What is the average rate of Movie1?
+movie_to_DoubanRating,What is the average ratio of Movie1?
+movie_to_IMDBRating,What is the IMDB ratio of Movie1?
+movie_to_IMDBRating,What is the IMDB rating of Movie1?
+movie_to_casts,What is Movie1's cast?
+movie_to_casts,What is the cast of Movie1?
+movie_to_runtimeMinutes,What is the running time of Movie1?
+movie_to_runtimeMinutes,What is the runtime of Movie1?
+movie_to_runtimeMinutes,What is the time of Movie1?
+movie_to_runtimeMinutes,What is the length of Movie1?
+movie_to_runtimeMinutes,What is Movie1's length?
+movie_to_release-date,When is Movie1's release date?
+movie_to_release-date,What is the release date of Movie1?
+movie_to_Color,What is Movie1's color?
+movie_to_Color,What is the color of Movie1?
+person_to_primaryProfession,What is Person1's occupation?
+person_to_primaryProfession,What is the profession of Person1?
+person_to_Height,What is Person1's height?
+person_to_Height,What is the height of Person1?
+person_to_Born,What is Person1's birthday?
+person_to_Born,What is the birthday of Person1?
+person_to_Born,When was Person1 born?
+person_to_Died,When is the death date of Person1?
+person_to_Died,What is the deathday of Person1?
+person_to_Died,When did Person1 die?
+person_to_Nicknames,What is Person1's nickname?
+person_to_Nicknames,What is the nickname of Person1?
+person_to_trivia,What is Person1's trivia?
+person_to_trivia,What is the trivia of Person1?
+person_to_trade-mark,What is Person1's trademark?
+person_to_trade-mark,What is the trade mark of Person1?
+movie_to_actor,Who are Movie1's actors?
+movie_to_actor,Who is the actor of Movie1?
+movie_to_actor,Who acted Movie1?
+movie_to_actor,Who plays in Movie1?
+movie_to_director,Who is Movie1's director?
+movie_to_director,Who is the director of Movie1?
+movie_to_director,Who is the guide of Movie1?
+movie_to_director,Who directed Movie1?
+movie_to_director,Who directs Movie1?
+movie_to_writer,Who is Movie1's writer?
+movie_to_writer,Who is the writer of Movie1??
+movie_to_writer,Who is the author of Movie1??
+movie_to_writer,Who wrote Movie1?
+movie_to_writer,Who write Movie1??
+movie_to_editor,Who is Movie1's editor?
+movie_to_editor,Who is the editor of Movie1?
+movie_to_editor,Who edit Movie1??
+movie_to_editor,Who edits Movie1?
+movie_to_composer,Who is Movie1's composer?
+movie_to_composer,Who is the composer of Movie1?
+movie_to_composer,Who compose Movie1??
+movie_to_composer,Who composed Movie1? 
+movie_to_cinematographer,Who is Movie1's photographer?
+movie_to_cinematographer,Who is the photographer of Movie1?
+movie_to_cinematographer,Who photographed Movie1?
+movie_to_cinematographer,Who filmed Movie1?
+movie_to_production-designer,Who is Movie1's product designer?
+movie_to_production-designer,Who is the production designer of Movie1?
+movie_to_production-designer,Who designed Movie1?
+movie_to_production-designer,Who designed and made Movie1?
+actor_to_movie,What Movie1 did Person1 play in?
+actor_to_movie,What Movie1 are acted by Person1?
+actor_to_movie,what is the name of the Movie1 acted by Person1?
+actor_to_movie,What Movie1 are performed by Person1?
+actor_to_movie,What Movie1 is Person1 in?
+director_to_movie,What Movie1 did Person1 direct?
+director_to_movie,What Movie1 are directed by Person1?
+director_to_movie,what is the name of the Movie1 directed by Person1?
+director_to_movie,What Movie1's director is Person1?
+writer_to_movie,What Movie1 did Person1 write?
+writer_to_movie,What Movie1 are writed by Person1?
+writer_to_movie,what is the name of the Movie1 writed by Person1?
+writer_to_movie,What Movie1's writer is Person1?
+editor_to_movie,What is the Movie1 edited by Person1?
+editor_to_movie,What Movie1 are edited by Person1?
+editor_to_movie,what is the name of the Movie1 edited by Person1?
+editor_to_movie,What Movie1's editor is Person1?
+composer_to_movie,What Movie1 did Person1 compose?
+composer_to_movie,What Movie1 are composed by Person1?
+composer_to_movie,what is the name of the Movie1 composed by Person1?
+composer_to_movie,What Movie1's composer is Person1?
+cinematographer_to_movie,Person1 is the photographer of which film?
+cinematographer_to_movie,What Movie1 are photographed by Person1?
+cinematographer_to_movie,what is the name of the Movie1 photographed by Person1?
+cinematographer_to_movie,What Movie1's cinematographer is Person1?
+production-designer_to_movie,Person1 is the production designer of which film?
+production-designer_to_movie,What Movie1 are designed by Person1?
+production-designer_to_movie,what is the name of the Movie1 designed by Person1?
+production-designer_to_movie,What Movie1's production designer is Person1?
+production_to_movie,What Movie1s did C1 make?
+production_to_movie,what Movie1s are producted by C1?
+production_to_movie,what is the name of the Movie1s producted by C1?
+distributor_to_movie,What Movie1 does C1 release?
+distributor_to_movie,what Movie1s are distributed by C1?
+distributor_to_movie,what is the name of the Movie1s distributed by C1?
+movie_to_production,Which company produces Movie1?
+movie_to_production,what company produce Movie1??
+movie_to_production,what is the name of the company produce Movie1??
+movie_to_distributor,What company is the distributor of Movie1?
+movie_to_distributor,Which company distributed the Movie1?
+movie_to_distributor,what is the name of the company distributed the Movie1?
+movie_to_award,What awards did Movie1 win?
+movie_to_award,what award does Movie1 win?
+movie_to_award,what prize does Movie1 win?
+movie_to_award,The prize won by Movie1.
+person_to_award,What awards did Person1 win?
+person_to_award,what award does Person1 win?
+person_to_award,what prize does Person1 win?
+person_to_award,The prize won by Person1.
+actor_to_movie_to_director,Who directed the Movie1 starring Person1?
+actor_to_movie_to_director,Who directed the Movie1 acted by Person1?
+actor_to_movie_to_director,What is the name of the person directed the Movie1 acted by Person1?
+actor_to_movie_to_director,Who guided the Movie1 played by Person1?
+actor_to_movie_to_writer,Who wrote the Movie1 starring Person1?
+actor_to_movie_to_writer,Who writed the Movie1 acted by Person1?
+actor_to_movie_to_writer,What is the name of the person writed the Movie1 acted by Person1?
+actor_to_movie_to_writer,Who writed the Movie1 played by Person1?
+actor_to_movie_to_editor,Who decides the Movie1 starring Person1?
+actor_to_movie_to_editor,Who ecited the Movie1 acted by Person1?
+actor_to_movie_to_editor,What is the name of the person ecited the Movie1 acted by Person1?
+actor_to_movie_to_editor,Who ecited the Movie1 played by Person1?
+actor_to_movie_to_composer,Who wrote the Movie1 starring Person1?
+actor_to_movie_to_composer,Who composed the Movie1 acted by Person1?
+actor_to_movie_to_composer,What is the name of the person composed the Movie1 acted by Person1?
+actor_to_movie_to_composer,Who composed the Movie1 played by Person1?
+actor_to_movie_to_cinematographer,Who made the Movie1 starring Person1?
+actor_to_movie_to_cinematographer,Who photographed the Movie1 acted by Person1?
+actor_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 acted by Person1?
+actor_to_movie_to_cinematographer,Who photographed the Movie1 played by Person1?
+actor_to_movie_to_production-designer,Who designed the film starring Person1?
+actor_to_movie_to_production-designer,Who designed the Movie1 acted by Person1?
+actor_to_movie_to_production-designer,What is the name of the person designed the Movie1 acted by Person1?
+actor_to_movie_to_production-designer,Who designed the Movie1 played by Person1?
+director_to_movie_to_actor,Who acted in the film directed by Person1?
+director_to_movie_to_actor,Who acted the Movie1 directed by Person1?
+director_to_movie_to_actor,What is the name of the person acted the Movie1 directed by Person1?
+director_to_movie_to_actor,Who played the Movie1 guided by Person1?
+director_to_movie_to_writer,Who wrote the film directed by Person1?
+director_to_movie_to_writer,Who writed the Movie1 directed by Person1?
+director_to_movie_to_writer,What is the name of the person writed the Movie1 directed by Person1?
+director_to_movie_to_writer,Who writed the Movie1 guided by Person1?
+director_to_movie_to_editor,Who chose the film directed by Person1?
+director_to_movie_to_editor,Who ecited the Movie1 directed by Person1?
+director_to_movie_to_editor,What is the name of the person ecited the Movie1 directed by Person1?
+director_to_movie_to_editor,Who ecited the Movie1 guided by Person1?
+director_to_movie_to_composer,Who created the film directed by Person1?
+director_to_movie_to_composer,Who composed the Movie1 directed by Person1?
+director_to_movie_to_composer,What is the name of the person composed the Movie1 directed by Person1?
+director_to_movie_to_composer,Who composed the Movie1 guided by Person1?
+director_to_movie_to_cinematographer,Who made the film directed by Person1?
+director_to_movie_to_cinematographer,Who photographed the Movie1 directed by Person1?
+director_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 directed by Person1?
+director_to_movie_to_cinematographer,Who photographed the Movie1 guided by Person1?
+director_to_movie_to_production-designer,Who designed the film directed by Person1?
+director_to_movie_to_production-designer,Who designed the Movie1 directed by Person1?
+director_to_movie_to_production-designer,What is the name of the person designed the Movie1 directed by Person1?
+director_to_movie_to_production-designer,Who designed the Movie1 guided by Person1?
+writer_to_movie_to_actor,Who acted in the film written by Person1?
+writer_to_movie_to_actor,Who acted the Movie1 writed by Person1?
+writer_to_movie_to_actor,What is the name of the person acted the Movie1 writed by Person1?
+writer_to_movie_to_actor,Who played the Movie1 writed by Person1?
+writer_to_movie_to_director,Who directed the film written by Person1?
+writer_to_movie_to_director,Who directed the Movie1 writed by Person1?
+writer_to_movie_to_director,What is the name of the person directed the Movie1 writed by Person1?
+writer_to_movie_to_director,Who guided the Movie1 writed by Person1?
+writer_to_movie_to_editor,Who decided the Movie1 Person1 wrote?
+writer_to_movie_to_editor,Who ecited the Movie1 writed by Person1?
+writer_to_movie_to_editor,What is the name of the person ecited the Movie1 writed by Person1?
+writer_to_movie_to_composer,Who wrote the Movie1 written by Person1?
+writer_to_movie_to_composer,Who composed the Movie1 writed by Person1?
+writer_to_movie_to_composer,What is the name of the person composed the Movie1 writed by Person1?
+writer_to_movie_to_cinematographer,Who made the Movie1 written by Person1?
+writer_to_movie_to_cinematographer,Who photographed the Movie1 writed by Person1?
+writer_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 writed by Person1?
+writer_to_movie_to_production-designer,Who designed the Movie1 written by Person1?
+writer_to_movie_to_production-designer,Who designed the Movie1 writed by Person1?
+writer_to_movie_to_production-designer,What is the name of the person designed the Movie1 writed by Person1?
+editor_to_movie_to_actor,Who acted in the film designated by Person1?
+editor_to_movie_to_actor,Who acted the Movie1 ecited by Person1?
+editor_to_movie_to_actor,What is the name of the person acted the Movie1 ecited by Person1?
+editor_to_movie_to_director,Who directed the film designated by Person1?
+editor_to_movie_to_director,Who directed the Movie1 ecited by Person1?
+editor_to_movie_to_director,What is the name of the person directed the Movie1 ecited by Person1?
+editor_to_movie_to_writer,Who wrote the Movie1 designated by Person1?
+editor_to_movie_to_writer,Who writed the Movie1 ecited by Person1?
+editor_to_movie_to_writer,What is the name of the person writed the Movie1 ecited by Person1?
+editor_to_movie_to_composer,Who created the Movie1 designated by Person1?
+editor_to_movie_to_composer,Who composed the Movie1 ecited by Person1?
+editor_to_movie_to_composer,What is the name of the person composed the Movie1 ecited by Person1?
+editor_to_movie_to_cinematographer,Who made the Movie1 designated by Person1?
+editor_to_movie_to_cinematographer,Who photographed the Movie1 ecited by Person1?
+editor_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 ecited by Person1?
+editor_to_movie_to_production-designer,Who designed the Movie1 designated by Person1?
+editor_to_movie_to_production-designer,Who designed the Movie1 ecited by Person1?
+editor_to_movie_to_production-designer,What is the name of the person designed the Movie1 ecited by Person1?
+composer_to_movie_to_actor,Who acted in the film written by Person1?
+composer_to_movie_to_actor,Who acted the Movie1 composed by Person1?
+composer_to_movie_to_actor,What is the name of the person acted the Movie1 composed by Person1?
+composer_to_movie_to_director,Who directed the film created by Person1?
+composer_to_movie_to_director,Who directed the Movie1 composed by Person1?
+composer_to_movie_to_director,What is the name of the person directed the Movie1 composed by Person1?
+composer_to_movie_to_writer,Who wrote the Movie1 written by Person1?
+composer_to_movie_to_writer,Who writed the Movie1 composed by Person1?
+composer_to_movie_to_writer,What is the name of the person writed the Movie1 composed by Person1?
+composer_to_movie_to_editor,Who decided on the film created by Person1?
+composer_to_movie_to_editor,Who ecited the Movie1 composed by Person1?
+composer_to_movie_to_editor,What is the name of the person ecited the Movie1 composed by Person1?
+composer_to_movie_to_cinematographer,Who made Person1's Movie1?
+composer_to_movie_to_cinematographer,Who photographed the Movie1 composed by Person1?
+composer_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 composed by Person1?
+composer_to_movie_to_production-designer,Who designed the film created by Person1?
+composer_to_movie_to_production-designer,Who designed the Movie1 composed by Person1?
+composer_to_movie_to_production-designer,What is the name of the person designed the Movie1 composed by Person1?
+cinematographer_to_movie_to_actor,Who acted in the film made by Person1?
+cinematographer_to_movie_to_actor,Who acted the Movie1 photographed by Person1?
+cinematographer_to_movie_to_actor,What is the name of the person acted the Movie1 photographed by Person1?
+cinematographer_to_movie_to_director,Who directed the film made by Person1?
+cinematographer_to_movie_to_director,Who directed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_director,What is the name of the person directed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_writer,Who wrote the film made by Person1?
+cinematographer_to_movie_to_writer,Who writed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_writer,What is the name of the person writed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_editor,Who decided the Movie1 Person1 made?
+cinematographer_to_movie_to_editor,Who ecited the Movie1 photographed by Person1?
+cinematographer_to_movie_to_editor,What is the name of the person ecited the Movie1 photographed by Person1?
+cinematographer_to_movie_to_composer,Who created the film made by Person1?
+cinematographer_to_movie_to_composer,Who composed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_composer,What is the name of the person composed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_production-designer,Who designed the film made by Person1?
+cinematographer_to_movie_to_production-designer,Who designed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_production-designer,What is the name of the person designed the Movie1 photographed by Person1?
+production-designer_to_movie_to_actor,Who acted in the film designed by Person1?
+production-designer_to_movie_to_actor,Who acted the Movie1 designed by Person1?
+production-designer_to_movie_to_actor,What is the name of the person acted the Movie1 designed by Person1?
+production-designer_to_movie_to_director,Who directed the film designed by Person1?
+production-designer_to_movie_to_director,Who directed the Movie1 designed by Person1?
+production-designer_to_movie_to_director,What is the name of the person directed the Movie1 designed by Person1?
+production-designer_to_movie_to_writer,Who wrote the Movie1 designed by Person1?
+production-designer_to_movie_to_writer,Who writed the Movie1 designed by Person1?
+production-designer_to_movie_to_writer,What is the name of the person writed the Movie1 designed by Person1?
+production-designer_to_movie_to_editor,Who decided the Movie1 designed by Person1?
+production-designer_to_movie_to_editor,Who ecited the Movie1 designed by Person1?
+production-designer_to_movie_to_editor,What is the name of the person ecited the Movie1 designed by Person1?
+production-designer_to_movie_to_composer,Who created the film designed by Person1?
+production-designer_to_movie_to_composer,Who composed the Movie1 designed by Person1?
+production-designer_to_movie_to_composer,What is the name of the person composed the Movie1 designed by Person1?
+production-designer_to_movie_to_cinematographer,Who made the Movie1 designed by Person1?
+production-designer_to_movie_to_cinematographer,Who photographed the Movie1 designed by Person1?
+production-designer_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 designed by Person1?
+production_to_movie_to_actor,Who acted in the film made by C1?
+production_to_movie_to_actor,Who acted the Movie1 producted by C1?
+production_to_movie_to_actor,What is the name of the person acted the Movie1 producted by C1?
+production_to_movie_to_director,Who directed the film made by C1?
+production_to_movie_to_director,Who directed the Movie1 producted by C1?
+production_to_movie_to_director,What is the name of the person directed the Movie1 producted by C1?
+production_to_movie_to_writer,Who wrote the film made by C1?
+production_to_movie_to_writer,Who writed the Movie1 producted by C1?
+production_to_movie_to_writer,What is the name of the person writed the Movie1 producted by C1?
+production_to_movie_to_editor,Who chose the film made by C1?
+production_to_movie_to_editor,Who ecited the Movie1 producted by C1?
+production_to_movie_to_editor,What is the name of the person ecited the Movie1 producted by C1?
+production_to_movie_to_composer,Who created the film made by C1?
+production_to_movie_to_composer,Who composed the Movie1 producted by C1?
+production_to_movie_to_composer,What is the name of the person composed the Movie1 producted by C1?
+production_to_movie_to_cinematographer,Who made the film made by C1?
+production_to_movie_to_cinematographer,Who photographed the Movie1 producted by C1?
+production_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 producted by C1?
+production_to_movie_to_production-designer,Who designed the film made by C1?
+production_to_movie_to_production-designer,Who designed the Movie1 producted by C1?
+production_to_movie_to_production-designer,What is the name of the person designed the Movie1 producted by C1?
+distributor_to_movie_to_actor,Who starred in the C1 release?
+distributor_to_movie_to_actor,Who acted the Movie1 distributed by C1?
+distributor_to_movie_to_actor,What is the name of the person acted the Movie1 distributed by C1?
+distributor_to_movie_to_director,Who directed the C1 release?
+distributor_to_movie_to_director,Who directed the Movie1 distributed by C1?
+distributor_to_movie_to_director,What is the name of the person directed the Movie1 distributed by C1?
+distributor_to_movie_to_writer,Who wrote the film released by C1?
+distributor_to_movie_to_writer,Who writed the Movie1 distributed by C1?
+distributor_to_movie_to_writer,What is the name of the person writed the Movie1 distributed by C1?
+distributor_to_movie_to_editor,Who decided on the film released by C1?
+distributor_to_movie_to_editor,Who ecited the Movie1 distributed by C1?
+distributor_to_movie_to_editor,What is the name of the person ecited the Movie1 distributed by C1?
+distributor_to_movie_to_composer,Who created the film released by C1?
+distributor_to_movie_to_composer,Who composed the Movie1 distributed by C1?
+distributor_to_movie_to_composer,What is the name of the person composed the Movie1 distributed by C1?
+distributor_to_movie_to_cinematographer,Who made the C1 release?
+distributor_to_movie_to_cinematographer,Who photographed the Movie1 distributed by C1?
+distributor_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 distributed by C1?
+distributor_to_movie_to_production-designer,Who designed the C1 release?
+distributor_to_movie_to_production-designer,Who designed the Movie1 distributed by C1?
+distributor_to_movie_to_production-designer,What is the name of the person designed the Movie1 distributed by C1?
+actor_to_movie_to_production,Which company produced a Movie1 starring Person1?
+actor_to_movie_to_production,What company producted the Movie1 acted by Person1?
+actor_to_movie_to_production,What is the name of the company producted the Movie1 acted by Person1?
+director_to_movie_to_production,Which company produced the film directed by Person1?
+director_to_movie_to_production,What company producted the Movie1 directed by Person1?
+director_to_movie_to_production,What is the name of the company producted the Movie1 directed by Person1?
+writer_to_movie_to_production,Which company produced the film written by Person1?
+writer_to_movie_to_production,What company producted the Movie1 writed by Person1?
+writer_to_movie_to_production,What is the name of the company producted the Movie1 writed by Person1?
+editor_to_movie_to_production,Which company produced the film designated by Person1?
+editor_to_movie_to_production,What company producted the Movie1 ecited by Person1?
+editor_to_movie_to_production,What is the name of the company producted the Movie1 ecited by Person1?
+composer_to_movie_to_production,Which company produced the film created by Person1?
+composer_to_movie_to_production,What company producted the Movie1 composed by Person1?
+composer_to_movie_to_production,What is the name of the company producted the Movie1 composed by Person1?
+cinematographer_to_movie_to_production,Which company produced the film made by Person1?
+cinematographer_to_movie_to_production,What company producted the Movie1 photographed by Person1?
+cinematographer_to_movie_to_production,What is the name of the company producted the Movie1 photographed by Person1?
+production-designer_to_movie_to_production,Which company produced the film designed by Person1?
+production-designer_to_movie_to_production,What company producted the Movie1 designed by Person1?
+production-designer_to_movie_to_production,What is the name of the company producted the Movie1 designed by Person1?
+actor_to_movie_to_distributor,Which company released the film starring Person1?
+actor_to_movie_to_distributor,What company distributed the Movie1 acted by Person1?
+actor_to_movie_to_distributor,What is the name of the company distributed the Movie1 acted by Person1?
+director_to_movie_to_distributor,Which company released the films directed by Person1?
+director_to_movie_to_distributor,What company distributed the Movie1 directed by Person1?
+director_to_movie_to_distributor,What is the name of the company distributed the Movie1 directed by Person1?
+writer_to_movie_to_distributor,Which company released the film written by Person1?
+writer_to_movie_to_distributor,What company distributed the Movie1 writed by Person1?
+writer_to_movie_to_distributor,What is the name of the company distributed the Movie1 writed by Person1?
+editor_to_movie_to_distributor,Which company has released the films designated by Person1?
+editor_to_movie_to_distributor,What company distributed the Movie1 ecited by Person1?
+editor_to_movie_to_distributor,What is the name of the company distributed the Movie1 ecited by Person1?
+composer_to_movie_to_distributor,Which company has released the films created by Person1?
+composer_to_movie_to_distributor,What company distributed the Movie1 composed by Person1?
+composer_to_movie_to_distributor,What is the name of the company distributed the Movie1 composed by Person1?
+cinematographer_to_movie_to_distributor,Which company released the films made by Person1?
+cinematographer_to_movie_to_distributor,What company distributed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_distributor,What is the name of the company distributed the Movie1 photographed by Person1?
+production-designer_to_movie_to_distributor,Which company has released Person1 designed films?
+production-designer_to_movie_to_distributor,What company distributed the Movie1 designed by Person1?
+production-designer_to_movie_to_distributor,What is the name of the company distributed the Movie1 designed by Person1?
+movie_to_actor_to_movie,What Movie1 does Movie1's actor play?
+movie_to_actor_to_movie,What Movie1 is acted by the actor of Movie1?
+movie_to_actor_to_movie,What is the name of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie,Which Movie1 did Movie1's director direct?
+movie_to_director_to_movie,What Movie1 is directed by the director of Movie1?
+movie_to_director_to_movie,What is the name of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie,What Movie1 did the author of Movie1 write?
+movie_to_writer_to_movie,What Movie1 is writed by the writer of Movie1?
+movie_to_writer_to_movie,What is the name of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie,Which Movie1 did the editor of Movie1 specify?
+movie_to_editor_to_movie,What Movie1 is ecited by the editor of Movie1?
+movie_to_editor_to_movie,What is the name of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie,What films did the composer of Movie1 create?
+movie_to_composer_to_movie,What Movie1 is composed by the composer of Movie1?
+movie_to_composer_to_movie,What is the name of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie,What Movie1 did Movie1's photographer shoot?
+movie_to_cinematographer_to_movie,What Movie1 is photographed by the photographer of Movie1?
+movie_to_cinematographer_to_movie,What is the name of the Movie1 photographed by the photographer of Movie1?
+movie_to_production-designer_to_movie,What Movie1 did the production designer of Movie1 design?
+movie_to_production-designer_to_movie,What Movie1 is designed by the production designer of Movie1?
+movie_to_production-designer_to_movie,What is the name of the Movie1 designed by the production designer of Movie1?
+movie_to_actor_to_primaryProfession,What is the profession of Movie1 actor?
+movie_to_actor_to_primaryProfession,What is the profession of the actor of Movie1?
+movie_to_actor_to_primaryProfession,What is the profession of the player in Movie1?
+movie_to_director_to_primaryProfession,What is the occupation of Movie1 director?
+movie_to_director_to_primaryProfession,What is the profession of the director of Movie1?
+movie_to_director_to_primaryProfession,What is the profession of the guide of Movie1?
+movie_to_writer_to_primaryProfession,What is the occupation of Movie1 author?
+movie_to_writer_to_primaryProfession,What is the profession of the writer of Movie1?
+movie_to_writer_to_primaryProfession,What is the profession of the author of Movie1?
+movie_to_editor_to_primaryProfession,What is the profession of Movie1 editor?
+movie_to_editor_to_primaryProfession,What is the profession of the editor of Movie1?
+movie_to_composer_to_primaryProfession,What is the profession of Movie1 composer?
+movie_to_composer_to_primaryProfession,What is the profession of the composer of Movie1?
+movie_to_cinematographer_to_primaryProfession,What is the occupation of Movie1 photographer?
+movie_to_cinematographer_to_primaryProfession,What is the profession of the photographer of Movie1?
+movie_to_production-designer_to_primaryProfession,What is the profession of Movie1 production designer?
+movie_to_production-designer_to_primaryProfession,What is the profession of the production designer of Movie1?
+movie_to_actor_to_Height,What is the height of the Movie1 actor?
+movie_to_actor_to_Height,What is the height of the actor of Movie1?
+movie_to_actor_to_Height,What is the height of the player in Movie1?
+movie_to_director_to_Height,What is the height of director Movie1?
+movie_to_director_to_Height,What is the height of the director of Movie1?
+movie_to_director_to_Height,What is the height of the guide of Movie1?
+movie_to_writer_to_Height,What is the height of the Movie1 writer?
+movie_to_writer_to_Height,What is the height of the writer of Movie1?
+movie_to_writer_to_Height,What is the height of the author of Movie1?
+movie_to_editor_to_Height,What is the height of the Movie1 editor?
+movie_to_editor_to_Height,What is the height of the editor of Movie1?
+movie_to_composer_to_Height,What is the height of Movie1 composer?
+movie_to_composer_to_Height,What is the height of the composer of Movie1?
+movie_to_cinematographer_to_Height,What is the height of Movie1's photographer?
+movie_to_cinematographer_to_Height,What is the height of the photographer of Movie1?
+movie_to_production-designer_to_Height,What is the height of the production designer of Movie1?
+movie_to_production-designer_to_Height,What is the height of the production designer of Movie1?
+movie_to_actor_to_Born,What is the birthday of Movie1 actor?
+movie_to_actor_to_Born,What is the birthday of the actor of Movie1?
+movie_to_actor_to_Born,What is the birthday of the player in Movie1?
+movie_to_director_to_Born,What is the birthday of director Movie1?
+movie_to_director_to_Born,What is the birthday of the director of Movie1?
+movie_to_director_to_Born,What is the birthday of the guide of Movie1?
+movie_to_writer_to_Born,What is the birthday of the Movie1 writer?
+movie_to_writer_to_Born,What is the birthday of the writer of Movie1?
+movie_to_writer_to_Born,What is the birthday of the author of Movie1?
+movie_to_editor_to_Born,What is the birthday of Movie1 editor?
+movie_to_editor_to_Born,What is the birthday of the editor of Movie1?
+movie_to_composer_to_Born,When is the birthday of Movie1 composer?
+movie_to_composer_to_Born,What is the birthday of the composer of Movie1?
+movie_to_cinematographer_to_Born,What is the birthday of Movie1 photographer?
+movie_to_cinematographer_to_Born,What is the birthday of the photographer of Movie1?
+movie_to_production-designer_to_Born,What is the birthday of Movie1 production designer?
+movie_to_production-designer_to_Born,What is the birthday of the production designer of Movie1?
+movie_to_actor_to_Died,When is the death day of Movie1 actor?
+movie_to_actor_to_Died,What is the deathday of the actor of Movie1?
+movie_to_actor_to_Died,What is the deathday of the player in Movie1?
+movie_to_director_to_Died,When is the death date of Movie1 supervisor?
+movie_to_director_to_Died,What is the deathday of the director of Movie1?
+movie_to_director_to_Died,What is the deathday of the guide of Movie1?
+movie_to_writer_to_Died,When is the birthday of the Movie1 author?
+movie_to_writer_to_Died,What is the deathday of the writer of Movie1?
+movie_to_writer_to_Died,What is the deathday of the author of Movie1?
+movie_to_editor_to_Died,When is the death date of the Movie1 editor?
+movie_to_editor_to_Died,What is the deathday of the editor of Movie1?
+movie_to_composer_to_Died,When is the birthday of Movie1 composer?
+movie_to_composer_to_Died,What is the deathday of the composer of Movie1?
+movie_to_cinematographer_to_Died,When is the birthday of Movie1 photographer?
+movie_to_cinematographer_to_Died,What is the deathday of the photographer of Movie1?
+movie_to_production-designer_to_Died,When is the birthday of the production designer of Movie1?
+movie_to_production-designer_to_Died,What is the deathday of the production designer of Movie1?
+movie_to_actor_to_Nicknames,What is the nickname of Movie1 actor?
+movie_to_actor_to_Nicknames,What is the nickname of the actor of Movie1?
+movie_to_actor_to_Nicknames,What is the nickname of the player in Movie1?
+movie_to_director_to_Nicknames,What is the nickname of Movie1 supervisor?
+movie_to_director_to_Nicknames,What is the nickname of the director of Movie1?
+movie_to_director_to_Nicknames,What is the nickname of the guide of Movie1?
+movie_to_writer_to_Nicknames,What is the nickname of the Movie1 author?
+movie_to_writer_to_Nicknames,What is the nickname of the writer of Movie1?
+movie_to_writer_to_Nicknames,What is the nickname of the author of Movie1?
+movie_to_editor_to_Nicknames,What is the nickname of Movie1 editor?
+movie_to_editor_to_Nicknames,What is the nickname of the editor of Movie1?
+movie_to_composer_to_Nicknames,What is the nickname of Movie1 composer?
+movie_to_composer_to_Nicknames,What is the nickname of the composer of Movie1?
+movie_to_cinematographer_to_Nicknames,What is the nickname of Movie1 photographer?
+movie_to_cinematographer_to_Nicknames,What is the nickname of the photographer of Movie1?
+movie_to_production-designer_to_Nicknames,What is the nickname of the production designer of Movie1?
+movie_to_production-designer_to_Nicknames,What is the nickname of the production designer of Movie1?
+movie_to_actor_to_trivia,What are the trivia of Movie1 actor?
+movie_to_actor_to_trivia,What is the trivia of the actor of Movie1?
+movie_to_actor_to_trivia,What is the trivia of the player in Movie1?
+movie_to_director_to_trivia,What is the trivia of director Movie1?
+movie_to_director_to_trivia,What is the trivia of the director of Movie1?
+movie_to_director_to_trivia,What is the trivia of the guide of Movie1?
+movie_to_writer_to_trivia,What is the trivia of the Movie1 author?
+movie_to_writer_to_trivia,What is the trivia of the writer of Movie1?
+movie_to_writer_to_trivia,What is the trivia of the author of Movie1?
+movie_to_editor_to_trivia,What is the trivia of Movie1 editing?
+movie_to_editor_to_trivia,What is the trivia of the editor of Movie1?
+movie_to_composer_to_trivia,What are the trivia of Movie1 composer?
+movie_to_composer_to_trivia,What is the trivia of the composer of Movie1?
+movie_to_cinematographer_to_trivia,What are the trivia of Movie1 photographer?
+movie_to_cinematographer_to_trivia,What is the trivia of the photographer of Movie1?
+movie_to_production-designer_to_trivia,What are the trivia of Movie1 production designer?
+movie_to_production-designer_to_trivia,What is the trivia of the production designer of Movie1?
+movie_to_actor_to_trade-mark,What is the trademark of Movie1 actor?
+movie_to_actor_to_trade-mark,What is the trade mark of the actor of Movie1?
+movie_to_actor_to_trade-mark,What is the trade mark of the player in Movie1?
+movie_to_director_to_trade-mark,What is the trademark of director Movie1?
+movie_to_director_to_trade-mark,What is the trade mark of the director of Movie1?
+movie_to_director_to_trade-mark,What is the trade mark of the guide of Movie1?
+movie_to_writer_to_trade-mark,What is the trademark of the Movie1 author?
+movie_to_writer_to_trade-mark,What is the trade mark of the writer of Movie1?
+movie_to_writer_to_trade-mark,What is the trade mark of the author of Movie1?
+movie_to_editor_to_trade-mark,What is the trademark of Movie1 editor?
+movie_to_editor_to_trade-mark,What is the trade mark of the editor of Movie1?
+movie_to_composer_to_trade-mark,What is the trademark of Movie1 composer?
+movie_to_composer_to_trade-mark,What is the trade mark of the composer of Movie1?
+movie_to_cinematographer_to_trade-mark,What is the photographer's trademark Movie1?
+movie_to_cinematographer_to_trade-mark,What is the trade mark of the photographer of Movie1?
+movie_to_production-designer_to_trade-mark,What is the trademark of Movie1's product designer?
+movie_to_production-designer_to_trade-mark,What is the trade mark of the production designer of Movie1?
+actor_to_movie_to_DoubanRating,What is the score of the film starring Person1?
+actor_to_movie_to_DoubanRating,What is the rating of the Movie1 acted by Person1?
+actor_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 acted by Person1?
+director_to_movie_to_DoubanRating,What is the rating of Person1 director's film?
+director_to_movie_to_DoubanRating,What is the rating of the Movie1 directed by Person1?
+director_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 directed by Person1?
+writer_to_movie_to_DoubanRating,What is the score of the film written by Person1?
+writer_to_movie_to_DoubanRating,What is the rating of the Movie1 writed by Person1?
+writer_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 writed by Person1?
+editor_to_movie_to_DoubanRating,What's Person1's score on the film?
+editor_to_movie_to_DoubanRating,What is the rating of the Movie1 ecited by Person1?
+editor_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 ecited by Person1?
+composer_to_movie_to_DoubanRating,What's the score of Person1 films?
+composer_to_movie_to_DoubanRating,What is the rating of the Movie1 composed by Person1?
+composer_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 composed by Person1?
+cinematographer_to_movie_to_DoubanRating,What is the score of the film made by Person1?
+cinematographer_to_movie_to_DoubanRating,What is the rating of the Movie1 photographed by Person1?
+cinematographer_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 photographed by Person1?
+production-designer_to_movie_to_DoubanRating,What's the score of the film designed by Person1?
+production-designer_to_movie_to_DoubanRating,What is the rating of the Movie1 designed by Person1?
+production-designer_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 designed by Person1?
+actor_to_movie_to_IMDBRating,What is the IMDB percentage of Person1 films?
+actor_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 acted by Person1?
+director_to_movie_to_IMDBRating,What is the IMDB release rate of Person1 director's films?
+director_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 directed by Person1?
+writer_to_movie_to_IMDBRating,What is the IMDB rate of Person1 writing Movie1s?
+writer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 writed by Person1?
+editor_to_movie_to_IMDBRating,What is the IMDB Movie1 playback rate specified by Person1?
+editor_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 ecited by Person1?
+composer_to_movie_to_IMDBRating,What is the IMDB rate of Person1 film creation?
+composer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 composed by Person1?
+cinematographer_to_movie_to_IMDBRating,What is the IMDB rate of making Movie1s in Person1?
+cinematographer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 photographed by Person1?
+production-designer_to_movie_to_IMDBRating,What is the IMDB rate of Person1 design films?
+production-designer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 designed by Person1?
+actor_to_movie_to_casts,What is the cast of the film starring Person1?
+actor_to_movie_to_casts,What is the cast of the Movie1 acted by Person1?
+director_to_movie_to_casts,What is the cast of the film directed by Person1?
+director_to_movie_to_casts,What is the cast of the Movie1 directed by Person1?
+writer_to_movie_to_casts,What is the cast of the film written by Person1?
+writer_to_movie_to_casts,What is the cast of the Movie1 writed by Person1?
+editor_to_movie_to_casts,What is the cast assigned by Person1?
+editor_to_movie_to_casts,What is the cast of the Movie1 ecited by Person1?
+composer_to_movie_to_casts,What is the cast of the film created by Person1?
+composer_to_movie_to_casts,What is the cast of the Movie1 composed by Person1?
+cinematographer_to_movie_to_casts,What is the cast of the film made by Person1?
+cinematographer_to_movie_to_casts,What is the cast of the Movie1 photographed by Person1?
+production-designer_to_movie_to_casts,What is the cast of the film designed by Person1?
+production-designer_to_movie_to_casts,What is the cast of the Movie1 designed by Person1?
+actor_to_movie_to_runtimeMinutes,What is the running time of Person1's film?
+actor_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 acted by Person1?
+actor_to_movie_to_runtimeMinutes,What is the length of the Movie1 acted by Person1?
+director_to_movie_to_runtimeMinutes,What is the running time of Person1 director's film?
+director_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 directed by Person1?
+director_to_movie_to_runtimeMinutes,What is the length of the Movie1 directed by Person1?
+writer_to_movie_to_runtimeMinutes,What is the running time of the Movie1 written by Person1?
+writer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 writed by Person1?
+writer_to_movie_to_runtimeMinutes,What is the length of the Movie1 writed by Person1?
+editor_to_movie_to_runtimeMinutes,What is the running time of the Movie1 specified by Person1?
+editor_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 ecited by Person1?
+editor_to_movie_to_runtimeMinutes,What is the length of the Movie1 ecited by Person1?
+composer_to_movie_to_runtimeMinutes,What is the running time of the Movie1 created by Person1?
+composer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 composed by Person1?
+composer_to_movie_to_runtimeMinutes,What is the length of the Movie1 composed by Person1?
+cinematographer_to_movie_to_runtimeMinutes,What is the running time of Person1 films?
+cinematographer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 photographed by Person1?
+cinematographer_to_movie_to_runtimeMinutes,What is the length of the Movie1 photographed by Person1?
+production-designer_to_movie_to_runtimeMinutes,What is the running time of the Movie1 designed by Person1?
+production-designer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 designed by Person1?
+production-designer_to_movie_to_runtimeMinutes,What is the length of the Movie1 designed by Person1?
+actor_to_movie_to_release-date,When is the release date of the film starring Person1?
+actor_to_movie_to_release-date,What is the release date of the Movie1 acted by Person1?
+actor_to_movie_to_release-date,When did the Movie1 acted by Person1 released?
+director_to_movie_to_release-date,When is the director's release date?
+director_to_movie_to_release-date,What is the release date of the Movie1 directed by Person1?
+director_to_movie_to_release-date,When did the Movie1 directed by Person1 released?
+writer_to_movie_to_release-date,When is the release date of the film written by Person1?
+writer_to_movie_to_release-date,What is the release date of the Movie1 writed by Person1?
+writer_to_movie_to_release-date,When did the Movie1 writed by Person1 released?
+editor_to_movie_to_release-date,When is the release date of the film specified in Person1?
+editor_to_movie_to_release-date,What is the release date of the Movie1 ecited by Person1?
+editor_to_movie_to_release-date,When did the Movie1 ecited by Person1 released?
+composer_to_movie_to_release-date,When is the release date of the film created by Person1?
+composer_to_movie_to_release-date,What is the release date of the Movie1 composed by Person1?
+composer_to_movie_to_release-date,When did the Movie1 composed by Person1 released?
+cinematographer_to_movie_to_release-date,When is the release date of the film made in Person1?
+cinematographer_to_movie_to_release-date,What is the release date of the Movie1 photographed by Person1?
+cinematographer_to_movie_to_release-date,When did the Movie1 photographed by Person1 released?
+production-designer_to_movie_to_release-date,When is the release date of Person1 design film?
+production-designer_to_movie_to_release-date,What is the release date of the Movie1 designed by Person1?
+production-designer_to_movie_to_release-date,When did the Movie1 designed by Person1 released?
+actor_to_movie_to_Color,What color is the film in Person1?
+actor_to_movie_to_Color,What is the color of the Movie1 acted by Person1?
+director_to_movie_to_Color,What color is the film directed by Person1?
+director_to_movie_to_Color,What is the color of the Movie1 directed by Person1?
+writer_to_movie_to_Color,What color is the Movie1 written by Person1?
+writer_to_movie_to_Color,What is the color of the Movie1 writed by Person1?
+editor_to_movie_to_Color,What is the Movie1 color specified by Person1?
+editor_to_movie_to_Color,What is the color of the Movie1 ecited by Person1?
+composer_to_movie_to_Color,What color is the film created by Person1?
+composer_to_movie_to_Color,What is the color of the Movie1 composed by Person1?
+cinematographer_to_movie_to_Color,What color is the film made by Person1?
+cinematographer_to_movie_to_Color,What is the color of the Movie1 photographed by Person1?
+production-designer_to_movie_to_Color,What color is the film designed by Person1?
+production-designer_to_movie_to_Color,What is the color of the Movie1 designed by Person1?
+production_to_movie_to_DoubanRating,What is the rating of C1 films?
+production_to_movie_to_DoubanRating,What is the rating of the Movie1 producted by C1?
+production_to_movie_to_DoubanRating,What is the average rate of the Movie1 producted by C1?
+production_to_movie_to_DoubanRating,C1 what is the average rate of making Movie1s?
+distributor_to_movie_to_DoubanRating,What is the rating of C1 films?
+distributor_to_movie_to_DoubanRating,What is the rating of the Movie1 distributed by C1?
+distributor_to_movie_to_DoubanRating,What is the average rate of the Movie1 distributed by C1?
+distributor_to_movie_to_DoubanRating,What is the average percentage of C1 films released?
+production_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
+production_to_movie_to_IMDBRating,What is the IMDB rating of the Movie1 producted by C1?
+distributor_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
+distributor_to_movie_to_IMDBRating,What is the IMDB rating of the Movie1 distributed by C1?
+production_to_movie_to_casts,What is the cast of the film produced by C1?
+production_to_movie_to_casts,What is the cast of the Movie1 producted by C1?
+distributor_to_movie_to_casts,What is the cast of the film released by C1?
+distributor_to_movie_to_casts,What is the cast of the Movie1 distributed by C1?
+production_to_movie_to_runtimeMinutes,What is the running time of the film produced by C1?
+production_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 producted by C1?
+production_to_movie_to_runtimeMinutes,What is the length of the Movie1 producted by C1?
+distributor_to_movie_to_runtimeMinutes,What is the running time of C1 released Movie1?
+distributor_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 distributed by C1?
+distributor_to_movie_to_runtimeMinutes,What is the length of the Movie1 distributed by C1?
+production_to_movie_to_release-date,When is the release date of the film produced by C1?
+production_to_movie_to_release-date,What is the release date of the Movie1 producted by C1?
+distributor_to_movie_to_release-date,When is the release date of the film released by C1?
+distributor_to_movie_to_release-date,What is the release date of the Movie1 distributed by C1?
+production_to_movie_to_Color,What color is the film made by C1?
+production_to_movie_to_Color,What is the color of the Movie1 producted by C1?
+distributor_to_movie_to_Color,What color is the film released by C1?
+distributor_to_movie_to_Color,What is the color of the Movie1 distributed by C1?
+director_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film written by Person1?
+writer_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_primaryProfession,What is the career of the film director starring Person1?
+actor_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_primaryProfession,What is the career of the person who directed the film written by Person1?
+writer_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_primaryProfession,What is the profession of the author of the film starring Person1?
+actor_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_primaryProfession,What is the profession of the author of the film directed by Person1?
+director_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Height,What is the height of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_Height,What is the height of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_Height,What is the height of the person who plays the Movie1 written by Person1?
+writer_to_movie_to_actor_to_Height,What is the height of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Height,What is the height of the film starring director Person1?
+actor_to_movie_to_director_to_Height,What is the height of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Height,How tall is the person who directed the film written by Person1?
+writer_to_movie_to_director_to_Height,What is the height of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_Height,What is the height of the screenwriter of the film starring Person1?
+actor_to_movie_to_writer_to_Height,What is the height of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_Height,What is the height of the screenwriter of the film directed by Person1?
+director_to_movie_to_writer_to_Height,What is the height of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Born,When is the birthday of the person who starred in the film directed by Person1?
+director_to_movie_to_actor_to_Born,What is the birthday of the person who acted the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Born,When is the birthday of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_Born,When is the birthday of the person who plays the Movie1 written by Person1?
+writer_to_movie_to_actor_to_Born,What is the birthday of the person who acted the Movie1 writed by Person1?
+writer_to_movie_to_actor_to_Born,When is the birthday of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Born,When is the birthday of the film director starring Person1?
+actor_to_movie_to_director_to_Born,What is the birthday of the person who directed the Movie1 acted by Person1?
+actor_to_movie_to_director_to_Born,When is the birthday of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Born,What is the birthday of the person who directed the film Person1?
+writer_to_movie_to_director_to_Born,What is the birthday of the person who directed the Movie1 writed by Person1?
+writer_to_movie_to_director_to_Born,When is the birthday of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_Born,What is the birthday of the author of the film starring Person1?
+actor_to_movie_to_writer_to_Born,What is the birthday of the person who writed the Movie1 acted by Person1?
+actor_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_Born,What is the birthday of the author of the film directed by Person1?
+director_to_movie_to_writer_to_Born,What is the birthday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Died,When is the birthday of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_Died,What is the deathday of the person who acted the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_Died,When is the birthday of the person who plays the Movie1 written by Person1?
+writer_to_movie_to_actor_to_Died,What is the deathday of the person who acted the Movie1 writed by Person1?
+writer_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Died,When did the person in the film starring Person1 die?
+actor_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 acted by Person1?
+actor_to_movie_to_director_to_Died,When is the deathday of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Died,When did the person who directed the film Person1 die?
+writer_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 writed by Person1?
+writer_to_movie_to_director_to_Died,When is the deathday of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_Died,When did the screenwriter of the Movie1 starring Person1 die?
+actor_to_movie_to_writer_to_Died,What is the deathday of the person who writed the Movie1 acted by Person1?
+actor_to_movie_to_writer_to_Died,When is the deathday of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_Died,When did the screenwriter of the film directed by Person1 die?
+director_to_movie_to_writer_to_Died,What is the deathday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_writer_to_Died,When is the deathday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Nicknames,What is the nickname of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_Nicknames,What is the nickname of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_Nicknames,What is the nickname of the person who plays the Movie1 written by Person1?
+writer_to_movie_to_actor_to_Nicknames,What is the nickname of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Nicknames,What is the nickname of the person in the film starring director Person1?
+actor_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Nicknames,What is the nickname of the person in the film written by director Person1?
+writer_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_Nicknames,What is the nickname of the author of the film starring Person1?
+actor_to_movie_to_writer_to_Nicknames,What is the nickname of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_Nicknames,What is the nickname of the author of the film directed by Person1?
+director_to_movie_to_writer_to_Nicknames,What is the nickname of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_trivia,What is the trivia of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_trivia,What is the trivia of the person who plays the Movie1 written by Person1?
+writer_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_trivia,What trivia does the director of the Movie1 starring Person1 have?
+actor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_trivia,What is the trivia of the people in the film written by director Person1?
+writer_to_movie_to_director_to_trivia,What is the trivia of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_trivia,What are the chores of the screenwriter of the Movie1 starring Person1?
+actor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_trivia,What trivia does the author of the Person1 directed film have?
+director_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_trade-mark,What is the trademark of the person who plays the film directed by Person1?
+director_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_trade-mark,What is the trademark of the person who plays the film written by Person1?
+writer_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_trade-mark,What is the trademark of the film director starring Person1?
+actor_to_movie_to_director_to_trade-mark,What is the trade mark of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_trade-mark,What is the trademark of the person who wrote the film by director Person1?
+writer_to_movie_to_director_to_trade-mark,What is the trade mark of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film starring Person1?
+actor_to_movie_to_writer_to_trade-mark,What is the trade mark of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film directed by Person1?
+director_to_movie_to_writer_to_trade-mark,What is the trade mark of the person who writed the Movie1 directed by Person1?
+production_to_movie_to_actor_to_primaryProfession,What is the profession of the person who plays the film made by C1?
+production_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_primaryProfession,What is the profession of the person who plays the film released by C1?
+distributor_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_primaryProfession,What is the profession of the person who directs the films made by C1?
+production_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_primaryProfession,What is the profession of the person who directs the films released by C1?
+distributor_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_primaryProfession,What is the profession of the author of C1 films?
+production_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_primaryProfession,What is the profession of the author of C1 films?
+distributor_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Height,What is the height of the person who plays the film made by C1?
+production_to_movie_to_actor_to_Height,What is the height of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Height,What is the height of the actor in the C1 release?
+distributor_to_movie_to_actor_to_Height,What is the height of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_Height,What is the height of the film director made by C1?
+production_to_movie_to_director_to_Height,What is the height of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Height,What is the height of the director of the C1 release?
+distributor_to_movie_to_director_to_Height,What is the height of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_Height,What is the height of the author of the C1 film?
+production_to_movie_to_writer_to_Height,What is the height of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_Height,What is the height of the author of the C1 release?
+distributor_to_movie_to_writer_to_Height,What is the height of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Born,When is the birthday of the person who plays the film made by C1?
+production_to_movie_to_actor_to_Born,What is the birthday of the person who acted the Movie1 producted by C1?
+production_to_movie_to_actor_to_Born,When is the birthday of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Born,When is the birthday of the actor in the C1 release?
+distributor_to_movie_to_actor_to_Born,What is the birthday of the person who acted the Movie1 distributed by C1?
+distributor_to_movie_to_actor_to_Born,When is the birthday of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_Born,When is the birthday of the film director made by C1?
+production_to_movie_to_director_to_Born,What is the birthday of the person who directed the Movie1 producted by C1?
+production_to_movie_to_director_to_Born,When is the birthday of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Born,When is the birthday of the director of the C1 release film?
+distributor_to_movie_to_director_to_Born,What is the birthday of the person who directed the Movie1 distributed by C1?
+distributor_to_movie_to_director_to_Born,When is the birthday of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_Born,What is the birthday of the author of the C1 Movie1?
+production_to_movie_to_writer_to_Born,What is the birthday of the person who writed the Movie1 producted by C1?
+production_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_Born,What is the birthday of the author of the C1 release?
+distributor_to_movie_to_writer_to_Born,What is the birthday of the person who writed the Movie1 distributed by C1?
+distributor_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Died,When is the birthday of the person who plays the film made by C1?
+production_to_movie_to_actor_to_Died,What is the deathday of the person who acted the Movie1 producted by C1?
+production_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Died,When is the starring day of the film released by C1?
+distributor_to_movie_to_actor_to_Died,What is the deathday of the person who acted the Movie1 distributed by C1?
+distributor_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_Died,When did the director of the C1 film die?
+production_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 producted by C1?
+production_to_movie_to_director_to_Died,When is the deathday of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Died,On what day did the director of the film released by C1 die?
+distributor_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 distributed by C1?
+distributor_to_movie_to_director_to_Died,When is the deathday of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_Died,When did the screenwriter of the C1 Movie1 die?
+production_to_movie_to_writer_to_Died,What is the deathday of the person who writed the Movie1 producted by C1?
+production_to_movie_to_writer_to_Died,When is the deathday of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_Died,When did the author of the film released by C1 die?
+distributor_to_movie_to_writer_to_Died,What is the deathday of the person who writed the Movie1 distributed by C1?
+distributor_to_movie_to_writer_to_Died,When is the deathday of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Nicknames,What is the nickname of the person who plays the film made by C1?
+production_to_movie_to_actor_to_Nicknames,What is the nickname of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Nicknames,What is the nickname of the actor in the C1 release?
+distributor_to_movie_to_actor_to_Nicknames,What is the nickname of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_Nicknames,What is the nickname of the person who made the film by director C1?
+production_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the film released by C1?
+distributor_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_Nicknames,What is the nickname of the author of the C1 film?
+production_to_movie_to_writer_to_Nicknames,What is the nickname of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_Nicknames,What is the nickname of the author of the C1 release?
+distributor_to_movie_to_writer_to_Nicknames,What is the nickname of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_trivia,What are the trivia of the leading actor in C1 films?
+production_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_trivia,What are the trivia of the leading actor in the C1 release?
+distributor_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_trivia,What is the trivia of the director of the C1 film?
+production_to_movie_to_director_to_trivia,What is the trivia of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the film released by C1?
+distributor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_trivia,What trivia does the author of C1's film have?
+production_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_trivia,What is the trivia of the author of the C1 release?
+distributor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_trade-mark,What is the trademark of the actor in the C1 film?
+production_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_trade-mark,What is the trademark of the film actors released by C1?
+distributor_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_trade-mark,What is the trademark of the person who made the film by director C1?
+production_to_movie_to_director_to_trade-mark,What is the trade mark of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_trade-mark,What is the trademark of the film director released by C1?
+distributor_to_movie_to_director_to_trade-mark,What is the trade mark of the person who directed the Movie1 distributed by C1?
+production_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film produced by C1?
+production_to_movie_to_writer_to_trade-mark,What is the trade mark of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film released by C1?
+distributor_to_movie_to_writer_to_trade-mark,What is the trade mark of the person who writed the Movie1 distributed by C1?
+movie_to_actor_to_movie_to_DoubanRating,What is the grade of the film performed by Movie1 actor?
+movie_to_actor_to_movie_to_DoubanRating,What is the rating of the Movie1 acted by the actor of Movie1?
+movie_to_actor_to_movie_to_DoubanRating,What is the average rate of the Movie1 acted by the actor of Movie1?
+movie_to_actor_to_movie_to_DoubanRating,What is the average percentage of Movie1 actors performing in Movie1s?
+movie_to_director_to_movie_to_DoubanRating,What is the rating of the film directed by director Movie1?
+movie_to_director_to_movie_to_DoubanRating,What is the rating of the Movie1 directed by the director of Movie1?
+movie_to_director_to_movie_to_DoubanRating,What is the average rate of the Movie1 directed by the director of Movie1?
+movie_to_director_to_movie_to_DoubanRating,What is the average release rate of films directed by Movie1 director?
+movie_to_writer_to_movie_to_DoubanRating,What is the score of the film written by the author of Movie1?
+movie_to_writer_to_movie_to_DoubanRating,What is the rating of the Movie1 writed by the writer of Movie1?
+movie_to_writer_to_movie_to_DoubanRating,What is the average rate of the Movie1 writed by the writer of Movie1?
+movie_to_writer_to_movie_to_DoubanRating,What is the average rate at which Movie1 authors write Movie1s?
+movie_to_editor_to_movie_to_DoubanRating,What do the Movie1 editors say about the film?
+movie_to_editor_to_movie_to_DoubanRating,What is the rating of the Movie1 ecited by the editor of Movie1?
+movie_to_editor_to_movie_to_DoubanRating,What is the average rate of the Movie1 ecited by the editor of Movie1?
+movie_to_editor_to_movie_to_DoubanRating,What is the average Movie1 release rate assigned by Movie1's editors?
+movie_to_composer_to_movie_to_DoubanRating,What is the score of the film created by Movie1 composer?
+movie_to_composer_to_movie_to_DoubanRating,What is the rating of the Movie1 composed by the composer of Movie1?
+movie_to_composer_to_movie_to_DoubanRating,What is the average rate of the Movie1 composed by the composer of Movie1?
+movie_to_composer_to_movie_to_DoubanRating,What is the average rate of films produced by Movie1 composers?
+movie_to_cinematographer_to_movie_to_DoubanRating,Movie1 what is the rating of the film made by the cinematographer?
+movie_to_cinematographer_to_movie_to_DoubanRating,What is the rating of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_cinematographer_to_movie_to_DoubanRating,What is the average rate of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_cinematographer_to_movie_to_DoubanRating,What is the average percentage of Movie1 photographers shooting films?
+movie_to_production-designer_to_movie_to_DoubanRating,What is the score of the film designed by Movie1 production designer?
+movie_to_production-designer_to_movie_to_DoubanRating,What is the rating of the Movie1 designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_DoubanRating,What is the average rate of the Movie1 designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_DoubanRating,What is the average rate at which Movie1's production designers design films?
+movie_to_actor_to_movie_to_IMDBRating,What is the IMDB percentage of Movie1 actors performing in Movie1s?
+movie_to_actor_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_IMDBRating,What is the IMDB release rate of films directed by Movie1 director?
+movie_to_director_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_IMDBRating,What is the IMDB rate at which Movie1 authors write Movie1s?
+movie_to_writer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_IMDBRating,What is the IMDB Movie1 release rate assigned by Movie1's editors?
+movie_to_editor_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_IMDBRating,What is the IMDB rate of films produced by Movie1 composers?
+movie_to_composer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_IMDBRating,What is the IMDB percentage of Movie1 photographers shooting films?
+movie_to_cinematographer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_IMDBRating,What is the IMDB rate at which Movie1's production designers design films?
+movie_to_production-designer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 designed by the production designer of Movie1?
+movie_to_actor_to_movie_to_casts,What role do Movie1's actors play in this film?
+movie_to_actor_to_movie_to_casts,What is the cast of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_casts,What is the cast of this film directed by Movie1?
+movie_to_director_to_movie_to_casts,What is the cast of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_casts,What is the cast of the film written by the author of Movie1?
+movie_to_writer_to_movie_to_casts,What is the cast of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_casts,The actors in this film were appointed by the Movie1 editor?
+movie_to_editor_to_movie_to_casts,What is the cast of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_casts,What is the cast of this film by Movie1 composer?
+movie_to_composer_to_movie_to_casts,What is the cast of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_casts,What is the cast of the film made by Movie1's photographer?
+movie_to_cinematographer_to_movie_to_casts,What is the cast of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_casts,What is the cast of this film designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_casts,What is the cast of the Movie1 designed by the production designer of Movie1?
+movie_to_actor_to_movie_to_runtimeMinutes,What is the running time of the Movie1 performed by Movie1's actors?
+movie_to_actor_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 acted by the actor of Movie1?
+movie_to_actor_to_movie_to_runtimeMinutes,What is the length of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_runtimeMinutes,What is the running time of the film directed by director Movie1?
+movie_to_director_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 directed by the director of Movie1?
+movie_to_director_to_movie_to_runtimeMinutes,What is the length of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_runtimeMinutes,What is the running time of the Movie1 written by the author of Movie1?
+movie_to_writer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 writed by the writer of Movie1?
+movie_to_writer_to_movie_to_runtimeMinutes,What is the length of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_runtimeMinutes,What is the running time of the Movie1 specified by the Movie1 editor?
+movie_to_editor_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 ecited by the editor of Movie1?
+movie_to_editor_to_movie_to_runtimeMinutes,What is the length of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_runtimeMinutes,What is the running time of the film created by Movie1 composer?
+movie_to_composer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 composed by the composer of Movie1?
+movie_to_composer_to_movie_to_runtimeMinutes,What is the length of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_runtimeMinutes,What is the running time of the film taken by the Movie1 photographer?
+movie_to_cinematographer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_cinematographer_to_movie_to_runtimeMinutes,What is the length of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_runtimeMinutes,What is the running time of the film designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_runtimeMinutes,What is the runtime of the Movie1 designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_runtimeMinutes,What is the length of the Movie1 designed by the production designer of Movie1?
+movie_to_actor_to_movie_to_release-date,What is the release date of the film performed by Movie1 actor?
+movie_to_actor_to_movie_to_release-date,What is the release date of the Movie1 acted by the actor of Movie1?
+movie_to_actor_to_movie_to_release-date,When is the release date of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_release-date,What is the release date of the film directed by director Movie1?
+movie_to_director_to_movie_to_release-date,What is the release date of the Movie1 directed by the director of Movie1?
+movie_to_director_to_movie_to_release-date,When is the release date of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_release-date,When is the release date of the film written by the author of Movie1?
+movie_to_writer_to_movie_to_release-date,What is the release date of the Movie1 writed by the writer of Movie1?
+movie_to_writer_to_movie_to_release-date,When is the release date of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_release-date,When did the Movie1 editor specify the release date of the film?
+movie_to_editor_to_movie_to_release-date,What is the release date of the Movie1 ecited by the editor of Movie1?
+movie_to_editor_to_movie_to_release-date,When is the release date of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_release-date,When is the release date of the film created by Movie1 composer?
+movie_to_composer_to_movie_to_release-date,What is the release date of the Movie1 composed by the composer of Movie1?
+movie_to_composer_to_movie_to_release-date,When is the release date of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_release-date,What is the release date of the film made by Movie1's photographer?
+movie_to_cinematographer_to_movie_to_release-date,What is the release date of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_cinematographer_to_movie_to_release-date,When is the release date of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_release-date,When is the release date of the film designed by Movie1 production designer?
+movie_to_production-designer_to_movie_to_release-date,What is the release date of the Movie1 designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_release-date,When is the release date of the Movie1 designed by the production designer of Movie1?
+movie_to_actor_to_movie_to_Color,What color is the Movie1 played by Movie1's actors?
+movie_to_actor_to_movie_to_Color,What is the color of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_Color,What color is the film directed by director Movie1?
+movie_to_director_to_movie_to_Color,What is the color of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_Color,What color is the film written by the author of Movie1?
+movie_to_writer_to_movie_to_Color,What is the color of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_Color,What is the Movie1 color assigned by Movie1 editor?
+movie_to_editor_to_movie_to_Color,What is the color of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_Color,What color is the film created by Movie1 composer?
+movie_to_composer_to_movie_to_Color,What is the color of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_Color,What color is the film made by Movie1 photographer?
+movie_to_cinematographer_to_movie_to_Color,What is the color of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_Color,What color is the film designed by the production designer of Movie1?
+movie_to_production-designer_to_movie_to_Color,What is the color of the Movie1 designed by the production designer of Movie1?
+movie_to_DoubanRating,What is the rating of Movie1?
+movie_to_IMDBRating,What is the IMDB rating of Movie1?
+movie_to_casts,The cast of Movie1.
+movie_to_runtimeMinutes,Running time of Movie1.
+movie_to_release-date,When is Movie1's release date?
+movie_to_Color,The color of Movie1.
+person_to_primaryProfession,Person1 specialty.
+person_to_Height,Height of Person1.
+person_to_Born,Person1's birthday.
+person_to_Died,Person1's death date.
+person_to_Nicknames,What is Person1's nickname?
+person_to_trivia,The trivia of Person1.
+person_to_trade-mark,The trade mark of Person1.
+movie_to_actor,Who acted Movie1?
+movie_to_director,Who is Movie1's director?
+movie_to_writer,Who wrote Movie1?
+movie_to_editor,The editor of Movie1.
+movie_to_composer,Who compose Movie1??
+movie_to_cinematographer,The cinematographer of Movie1.
+movie_to_production-designer,The production-designer of Movie1.
+actor_to_movie,What Movie1 are performed by Person1?
+director_to_movie,what is the name of the Movie1 directed by Person1?
+writer_to_movie,What Movie1 did Person1 write?
+editor_to_movie,What Movie1's editor is Person1?
+composer_to_movie,A Movie1 created by Person1.
+cinematographer_to_movie,What Movie1's cinematographer is Person1?
+production-designer_to_movie,what is the name of the Movie1 designed by Person1?
+production_to_movie,what Movie1s are producted by C1?
+distributor_to_movie,The Movie1 distributed by C1.
+movie_to_production,what is the name of the company produce Movie1??
+movie_to_distributor,Company assigned Movie1.
+movie_to_award,what award does Movie1 win?
+person_to_award,What awards did Person1 win?
+actor_to_movie_to_director,People who direct films starring Person1.
+actor_to_movie_to_writer,Who wrote the Movie1 starring Person1?
+actor_to_movie_to_editor,This man appointed a Movie1 starring Person1.
+actor_to_movie_to_composer,Who wrote the Movie1 starring Person1?
+actor_to_movie_to_cinematographer,Who made the Movie1 starring Person1?
+actor_to_movie_to_production-designer,Who designed the Movie1 played by Person1?
+director_to_movie_to_actor,Who acted in the film directed by Person1?
+director_to_movie_to_writer,Who writed the Movie1 directed by Person1?
+director_to_movie_to_editor,Who chose the film directed by Person1?
+director_to_movie_to_composer,Who composed the Movie1 directed by Person1?
+director_to_movie_to_cinematographer,Who photographed the Movie1 directed by Person1?
+director_to_movie_to_production-designer,What is the name of the person designed the Movie1 directed by Person1?
+writer_to_movie_to_actor,Who acted the Movie1 writed by Person1?
+writer_to_movie_to_director,Who guided the Movie1 writed by Person1?
+writer_to_movie_to_editor,The person ecited the Movie1 writed by Person1.
+writer_to_movie_to_composer,This man created a Movie1 written by Person1.
+writer_to_movie_to_cinematographer,Who made the Movie1 written by Person1?
+writer_to_movie_to_production-designer,Who designed the Movie1 written by Person1?
+editor_to_movie_to_actor,What is the name of the person acted the Movie1 ecited by Person1?
+editor_to_movie_to_director,What is the name of the person directed the Movie1 ecited by Person1?
+editor_to_movie_to_writer,This man wrote the Movie1 designated by Person1.
+editor_to_movie_to_composer,What is the name of the person composed the Movie1 ecited by Person1?
+editor_to_movie_to_cinematographer,The person who made the Person1 designated Movie1.
+editor_to_movie_to_production-designer,This man designed the Movie1 designated by Person1.
+composer_to_movie_to_actor,The person acted the Movie1 composed by Person1.
+composer_to_movie_to_director,The person directed the Movie1 composed by Person1.
+composer_to_movie_to_writer,Who writed the Movie1 composed by Person1?
+composer_to_movie_to_editor,What is the name of the person ecited the Movie1 composed by Person1?
+composer_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 composed by Person1?
+composer_to_movie_to_production-designer,Who designed the film created by Person1?
+cinematographer_to_movie_to_actor,Who acted in the film made by Person1?
+cinematographer_to_movie_to_director,What is the name of the person directed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_writer,What is the name of the person writed the Movie1 photographed by Person1?
+cinematographer_to_movie_to_editor,The person ecited the Movie1 photographed by Person1.
+cinematographer_to_movie_to_composer,Who created the film made by Person1?
+cinematographer_to_movie_to_production-designer,This man designed the Movie1 made by Person1.
+production-designer_to_movie_to_actor,Who acted in the film designed by Person1?
+production-designer_to_movie_to_director,What is the name of the person directed the Movie1 designed by Person1?
+production-designer_to_movie_to_writer,Who wrote the Movie1 designed by Person1?
+production-designer_to_movie_to_editor,Who ecited the Movie1 designed by Person1?
+production-designer_to_movie_to_composer,The person composed the Movie1 designed by Person1.
+production-designer_to_movie_to_cinematographer,What is the name of the person photographed the Movie1 designed by Person1?
+production_to_movie_to_actor,What is the name of the person acted the Movie1 producted by C1?
+production_to_movie_to_director,Who directed the film made by C1?
+production_to_movie_to_writer,Who writed the Movie1 producted by C1?
+production_to_movie_to_editor,Who chose the film made by C1?
+production_to_movie_to_composer,The person composed the Movie1 producted by C1.
+production_to_movie_to_cinematographer,Who made the film made by C1?
+production_to_movie_to_production-designer,What is the name of the person designed the Movie1 producted by C1?
+distributor_to_movie_to_actor,Who acted the Movie1 distributed by C1?
+distributor_to_movie_to_director,Who directed the Movie1 distributed by C1?
+distributor_to_movie_to_writer,The person writed the Movie1 distributed by C1.
+distributor_to_movie_to_editor,What is the name of the person ecited the Movie1 distributed by C1?
+distributor_to_movie_to_composer,Who created the film released by C1?
+distributor_to_movie_to_cinematographer,Who made the C1 release?
+distributor_to_movie_to_production-designer,What is the name of the person designed the Movie1 distributed by C1?
+actor_to_movie_to_production,What is the name of the company producted the Movie1 acted by Person1?
+director_to_movie_to_production,The company producted the Movie1 directed by Person1.
+writer_to_movie_to_production,The company produced films written by Person1.
+editor_to_movie_to_production,What company producted the Movie1 ecited by Person1?
+composer_to_movie_to_production,The company produced films created by Person1.
+cinematographer_to_movie_to_production,The company producted the Movie1 photographed by Person1.
+production-designer_to_movie_to_production,The company produced a film designed by Person1.
+actor_to_movie_to_distributor,What company distributed the Movie1 acted by Person1?
+director_to_movie_to_distributor,What is the name of the company distributed the Movie1 directed by Person1?
+writer_to_movie_to_distributor,What company distributed the Movie1 writed by Person1?
+editor_to_movie_to_distributor,What company distributed the Movie1 ecited by Person1?
+composer_to_movie_to_distributor,The company distributed the Movie1 composed by Person1.
+cinematographer_to_movie_to_distributor,Which company released the films made by Person1?
+production-designer_to_movie_to_distributor,What is the name of the company distributed the Movie1 designed by Person1?
+movie_to_actor_to_movie,The film was acted by Movie1 actors.
+movie_to_director_to_movie,What Movie1 is directed by the director of Movie1?
+movie_to_writer_to_movie,What is the name of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie,What is the name of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie,What is the name of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie,What Movie1 is photographed by the photographer of Movie1?
+movie_to_production-designer_to_movie,What Movie1 did the production designer of Movie1 design?
+movie_to_actor_to_primaryProfession,The profession of the actor of Movie1.
+movie_to_director_to_primaryProfession,What is the profession of the guide of Movie1?
+movie_to_writer_to_primaryProfession,What is the profession of the author of Movie1?
+movie_to_editor_to_primaryProfession,Movie1 editor's profession.
+movie_to_composer_to_primaryProfession,Movie1 the profession of composer.
+movie_to_cinematographer_to_primaryProfession,The profession of the cinematographer of Movie1.
+movie_to_production-designer_to_primaryProfession,What is the profession of Movie1 production designer?
+movie_to_actor_to_Height,What is the height of the Movie1 actor?
+movie_to_director_to_Height,Movie1 height of controller.
+movie_to_writer_to_Height,What is the height of the writer of Movie1?
+movie_to_editor_to_Height,Movie1 editor height.
+movie_to_composer_to_Height,The height of the composer of Movie1.
+movie_to_cinematographer_to_Height,Movie1 photographer's height.
+movie_to_production-designer_to_Height,Movie1 height of production designer.
+movie_to_actor_to_Born,What is the birthday of Movie1 actor?
+movie_to_director_to_Born,The birthday of the director of Movie1.
+movie_to_writer_to_Born,Movie1 author's birthday.
+movie_to_editor_to_Born,What is the birthday of the editor of Movie1?
+movie_to_composer_to_Born,What is the birthday of the composer of Movie1?
+movie_to_cinematographer_to_Born,What is the birthday of Movie1 photographer?
+movie_to_production-designer_to_Born,What is the birthday of Movie1 production designer?
+movie_to_actor_to_Died,The deathday of the actor of Movie1.
+movie_to_director_to_Died,What is the deathday of the director of Movie1?
+movie_to_writer_to_Died,What is the deathday of the writer of Movie1?
+movie_to_editor_to_Died,What is the deathday of the editor of Movie1?
+movie_to_composer_to_Died,Movie1 the day of the composer's death.
+movie_to_cinematographer_to_Died,What is the deathday of the photographer of Movie1?
+movie_to_production-designer_to_Died,When is the birthday of the production designer of Movie1?
+movie_to_actor_to_Nicknames,What is the nickname of the player in Movie1?
+movie_to_director_to_Nicknames,The nickname of the director of Movie1.
+movie_to_writer_to_Nicknames,What is the nickname of the author of Movie1?
+movie_to_editor_to_Nicknames,What is the nickname of Movie1 editor?
+movie_to_composer_to_Nicknames,What is the nickname of the composer of Movie1?
+movie_to_cinematographer_to_Nicknames,What is the nickname of Movie1 photographer?
+movie_to_production-designer_to_Nicknames,The nickname of the production designer of Movie1.
+movie_to_actor_to_trivia,The trivia of the actor of Movie1.
+movie_to_director_to_trivia,What is the trivia of the director of Movie1?
+movie_to_writer_to_trivia,What is the trivia of the Movie1 author?
+movie_to_editor_to_trivia,What is the trivia of the editor of Movie1?
+movie_to_composer_to_trivia,What is the trivia of the composer of Movie1?
+movie_to_cinematographer_to_trivia,What is the trivia of the photographer of Movie1?
+movie_to_production-designer_to_trivia,What is the trivia of the production designer of Movie1?
+movie_to_actor_to_trade-mark,Movie1 trademark of the actor.
+movie_to_director_to_trade-mark,What is the trade mark of the guide of Movie1?
+movie_to_writer_to_trade-mark,Movie1 trademark of the author.
+movie_to_editor_to_trade-mark,What is the trademark of Movie1 editor?
+movie_to_composer_to_trade-mark,The trade mark of the composer of Movie1.
+movie_to_cinematographer_to_trade-mark,Movie1 a trademark of a cinematographer.
+movie_to_production-designer_to_trade-mark,What is the trade mark of the production designer of Movie1?
+actor_to_movie_to_DoubanRating,What is the rating of the Movie1 acted by Person1?
+director_to_movie_to_DoubanRating,What is the rating of the Movie1 directed by Person1?
+writer_to_movie_to_DoubanRating,What is the score of the film written by Person1?
+editor_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 ecited by Person1?
+composer_to_movie_to_DoubanRating,What is the rating of the Movie1 composed by Person1?
+cinematographer_to_movie_to_DoubanRating,What is the Douban rate of the Movie1 photographed by Person1?
+production-designer_to_movie_to_DoubanRating,Person1 average rate of the design Movie1.
+actor_to_movie_to_IMDBRating,What is the IMDB percentage of Person1 films?
+director_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 directed by Person1?
+writer_to_movie_to_IMDBRating,IMDB rating of films written by Person1.
+editor_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 ecited by Person1?
+composer_to_movie_to_IMDBRating,The IMDB rating of the Movie1 composed by Person1.
+cinematographer_to_movie_to_IMDBRating,The IMDB rating of the Movie1 photographed by Person1.
+production-designer_to_movie_to_IMDBRating,The IMDB rating of the Movie1 designed by Person1.
+actor_to_movie_to_casts,The cast of the Movie1 acted by Person1.
+director_to_movie_to_casts,The cast of the Movie1 directed by Person1.
+writer_to_movie_to_casts,The cast of the Movie1 written by Person1.
+editor_to_movie_to_casts,What is the cast of the Movie1 ecited by Person1?
+composer_to_movie_to_casts,What is the cast of the Movie1 composed by Person1?
+cinematographer_to_movie_to_casts,The cast of the Movie1 photographed by Person1.
+production-designer_to_movie_to_casts,Person1 designed Movie1 cast.
+actor_to_movie_to_runtimeMinutes,What is the length of the Movie1 acted by Person1?
+director_to_movie_to_runtimeMinutes,What is the length of the Movie1 directed by Person1?
+writer_to_movie_to_runtimeMinutes,What is the length of the Movie1 writed by Person1?
+editor_to_movie_to_runtimeMinutes,What is the length of the Movie1 ecited by Person1?
+composer_to_movie_to_runtimeMinutes,What is the length of the Movie1 composed by Person1?
+cinematographer_to_movie_to_runtimeMinutes,Person1 the running time of the Movie1 taken.
+production-designer_to_movie_to_runtimeMinutes,What is the length of the Movie1 designed by Person1?
+actor_to_movie_to_release-date,The release date of the Movie1 acted by Person1.
+director_to_movie_to_release-date,The release date of the Movie1 directed by Person1.
+writer_to_movie_to_release-date,When did the Movie1 writed by Person1 released?
+editor_to_movie_to_release-date,What is the release date of the Movie1 ecited by Person1?
+composer_to_movie_to_release-date,Person1 release date of the Movie1 created.
+cinematographer_to_movie_to_release-date,When is the release date of the film made in Person1?
+production-designer_to_movie_to_release-date,When is the release date of Person1 design film?
+actor_to_movie_to_Color,The color of the Movie1 acted by Person1.
+director_to_movie_to_Color,The color of the Movie1 directed by Person1.
+writer_to_movie_to_Color,Person1 writes the color of the Movie1.
+editor_to_movie_to_Color,The color of the Movie1 ecited by Person1.
+composer_to_movie_to_Color,What is the color of the Movie1 composed by Person1?
+cinematographer_to_movie_to_Color,Person1 the color of the Movie1 taken.
+production-designer_to_movie_to_Color,What color is the film designed by Person1?
+production_to_movie_to_DoubanRating,C1 average rate of film production.
+distributor_to_movie_to_DoubanRating,What is the rating of the Movie1 distributed by C1?
+production_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
+distributor_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
+production_to_movie_to_casts,What is the cast of the Movie1 producted by C1?
+distributor_to_movie_to_casts,What is the cast of the Movie1 distributed by C1?
+production_to_movie_to_runtimeMinutes,What is the length of the Movie1 producted by C1?
+distributor_to_movie_to_runtimeMinutes,What is the length of the Movie1 distributed by C1?
+production_to_movie_to_release-date,When is the release date of the film produced by C1?
+distributor_to_movie_to_release-date,When is the release date of the film released by C1?
+production_to_movie_to_Color,What color is the film made by C1?
+distributor_to_movie_to_Color,What color is the film released by C1?
+director_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film directed by Person1?
+writer_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film written by Person1?
+actor_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_primaryProfession,A career as a screenwriter for a Movie1 starring Person1.
+director_to_movie_to_writer_to_primaryProfession,The profession of the person who writed the Movie1 directed by Person1.
+director_to_movie_to_actor_to_Height,The height of the person who acted the Movie1 directed by Person1.
+writer_to_movie_to_actor_to_Height,The height of the person who acted the Movie1 writed by Person1.
+actor_to_movie_to_director_to_Height,What is the height of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Height,How tall is the person who directed the film written by Person1?
+actor_to_movie_to_writer_to_Height,What is the height of the screenwriter of the film starring Person1?
+director_to_movie_to_writer_to_Height,What is the height of the screenwriter of the film directed by Person1?
+director_to_movie_to_actor_to_Born,When is the birthday of the person who starred in the film directed by Person1?
+writer_to_movie_to_actor_to_Born,Person1 wrote the birthday of the Movie1 actor.
+actor_to_movie_to_director_to_Born,The birthday of the film director starring Person1.
+writer_to_movie_to_director_to_Born,The birthday of the person who directed the Movie1 writed by Person1.
+actor_to_movie_to_writer_to_Born,The birthday of the person who writed the Movie1 acted by Person1.
+director_to_movie_to_writer_to_Born,What is the birthday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Died,The deathday of the person who acted the Movie1 directed by Person1.
+writer_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Died,When is the deathday of the person who directed the Movie1 writed by Person1?
+actor_to_movie_to_writer_to_Died,The deathday of the person who writed the Movie1 acted by Person1.
+director_to_movie_to_writer_to_Died,When is the deathday of the person who writed the Movie1 directed by Person1?
+director_to_movie_to_actor_to_Nicknames,The nickname of the Movie1 actor directed by Person1.
+writer_to_movie_to_actor_to_Nicknames,What is the nickname of the person who acted the Movie1 writed by Person1?
+actor_to_movie_to_director_to_Nicknames,What is the nickname of the person who directed the Movie1 acted by Person1?
+writer_to_movie_to_director_to_Nicknames,The nickname of the person who directed the Movie1 writed by Person1.
+actor_to_movie_to_writer_to_Nicknames,The nickname of the author of the Movie1 starring Person1.
+director_to_movie_to_writer_to_Nicknames,The nickname of the person who writed the Movie1 directed by Person1.
+director_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 directed by Person1?
+writer_to_movie_to_actor_to_trivia,Person1 the trivia of the actor in the film.
+actor_to_movie_to_director_to_trivia,Person1 starring in the film director's trivia.
+writer_to_movie_to_director_to_trivia,What is the trivia of the people in the film written by director Person1?
+actor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 acted by Person1?
+director_to_movie_to_writer_to_trivia,The trivia of the person who writed the Movie1 directed by Person1.
+director_to_movie_to_actor_to_trade-mark,The trade mark of the person who acted the Movie1 directed by Person1.
+writer_to_movie_to_actor_to_trade-mark,What is the trademark of the person who plays the film written by Person1?
+actor_to_movie_to_director_to_trade-mark,The trade mark of the person who directed the Movie1 acted by Person1.
+writer_to_movie_to_director_to_trade-mark,Person1 is the trademark of the film director.
+actor_to_movie_to_writer_to_trade-mark,The trade mark of the person who writed the Movie1 acted by Person1.
+director_to_movie_to_writer_to_trade-mark,Person1 the trademark of the filmmaker of the director.
+production_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_primaryProfession,The profession of the person who directs the films made by Person1.
+distributor_to_movie_to_director_to_primaryProfession,Person1 release of the film director's profession.
+production_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_primaryProfession,The profession of the person who writed the Movie1 distributed by Person1.
+production_to_movie_to_actor_to_Height,The height of the person who acted the Movie1 producted by Person1.
+distributor_to_movie_to_actor_to_Height,Person1 released the height of the Movie1 actor.
+production_to_movie_to_director_to_Height,The height of the person who directed the Movie1 producted by Person1.
+distributor_to_movie_to_director_to_Height,What is the height of the director of the C1 release?
+production_to_movie_to_writer_to_Height,Person1 the height of the author of the film.
+distributor_to_movie_to_writer_to_Height,What is the height of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Born,When is the birthday of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Born,Person1 release of the Movie1 actor's birthday.
+production_to_movie_to_director_to_Born,What is the birthday of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Born,Person1 release of the film director's birthday.
+production_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 producted by C1?
+distributor_to_movie_to_writer_to_Born,When is the birthday of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 producted by C1?
+distributor_to_movie_to_actor_to_Died,When is the deathday of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_Died,What is the deathday of the person who directed the Movie1 producted by C1?
+distributor_to_movie_to_director_to_Died,The deathday of the person who directed the Movie1 distributed by Person1.
+production_to_movie_to_writer_to_Died,The day of death of the author of the film produced by Person1.
+distributor_to_movie_to_writer_to_Died,Person1 the date of death of the author of the film released.
+production_to_movie_to_actor_to_Nicknames,The nickname of the person who acted the Movie1 producted by Person1.
+distributor_to_movie_to_actor_to_Nicknames,The nickname of the person who acted the Movie1 distributed by Person1.
+production_to_movie_to_director_to_Nicknames,What is the nickname of the person who made the film by director C1?
+distributor_to_movie_to_director_to_Nicknames,The nickname of the person who directed the Movie1 distributed by Person1.
+production_to_movie_to_writer_to_Nicknames,The nickname of the person who writed the Movie1 producted by Person1.
+distributor_to_movie_to_writer_to_Nicknames,The nickname of the author of the Movie1 released by Person1.
+production_to_movie_to_actor_to_trivia,The trivia of the person who acted the Movie1 producted by Person1.
+distributor_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_trivia,Person1 film director's trivia.
+distributor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the film released by C1?
+production_to_movie_to_writer_to_trivia,The trivia of the person who writed the Movie1 producted by Person1.
+distributor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the Movie1 distributed by C1?
+production_to_movie_to_actor_to_trade-mark,What is the trademark of the actor in the C1 film?
+distributor_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the Movie1 distributed by C1?
+production_to_movie_to_director_to_trade-mark,The trade mark of the person who directed the Movie1 producted by Person1.
+distributor_to_movie_to_director_to_trade-mark,Person1 is a trademark of the film director.
+production_to_movie_to_writer_to_trade-mark,The trade mark of the person who writed the Movie1 producted by Person1.
+distributor_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film released by C1?
+movie_to_actor_to_movie_to_DoubanRating,The average rate of the Movie1 acted by the actor of Movie1.
+movie_to_director_to_movie_to_DoubanRating,What is the rating of the film directed by director Movie1?
+movie_to_writer_to_movie_to_DoubanRating,Movie1 average rate of films written by authors.
+movie_to_editor_to_movie_to_DoubanRating,What is the rating of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_DoubanRating,What is the score of the film created by Movie1 composer?
+movie_to_cinematographer_to_movie_to_DoubanRating,What is the rating of the Movie1 photographed by the cinematographer of Movie1?
+movie_to_production-designer_to_movie_to_DoubanRating,Movie1 average ratio of films designed by production designers.
+movie_to_actor_to_movie_to_IMDBRating,Movie1 IMDB rating of films performed by actors.
+movie_to_director_to_movie_to_IMDBRating,IMDB rating of films directed by Movie1 director.
+movie_to_writer_to_movie_to_IMDBRating,What is the IMDB rate of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_IMDBRating,Movie1 edit the specified Movie1 IMDB rating.
+movie_to_composer_to_movie_to_IMDBRating,The IMDB rating of the Movie1 composed by the composer of Movie1.
+movie_to_cinematographer_to_movie_to_IMDBRating,The IMDB rating of the Movie1 photographed by the cinematographer of Movie1.
+movie_to_production-designer_to_movie_to_IMDBRating,What is the IMDB rate at which Movie1's production designers design films?
+movie_to_actor_to_movie_to_casts,The actors in this film are played by Movie1.
+movie_to_director_to_movie_to_casts,The cast of a film directed by director Movie1.
+movie_to_writer_to_movie_to_casts,What is the cast of the film written by the author of Movie1?
+movie_to_editor_to_movie_to_casts,The cast of the Movie1 ecited by the editor of Movie1.
+movie_to_composer_to_movie_to_casts,The cast of a film by an Movie1 composer.
+movie_to_cinematographer_to_movie_to_casts,The cast of the Movie1 photographed by the cinematographer of Movie1.
+movie_to_production-designer_to_movie_to_casts,The cast of the Movie1 designed by the production designer of Movie1.
+movie_to_actor_to_movie_to_runtimeMinutes,What is the running time of the Movie1 performed by Movie1's actors?
+movie_to_director_to_movie_to_runtimeMinutes,Movie1 the running time of the film directed by the director.
+movie_to_writer_to_movie_to_runtimeMinutes,Movie1 running time of the Movie1 written by the author.
+movie_to_editor_to_movie_to_runtimeMinutes,What is the length of the Movie1 ecited by the editor of Movie1?
+movie_to_composer_to_movie_to_runtimeMinutes,The runtime of the Movie1 composed by the composer of Movie1.
+movie_to_cinematographer_to_movie_to_runtimeMinutes,Movie1's photographer shot the running time of the film.
+movie_to_production-designer_to_movie_to_runtimeMinutes,The runtime of the Movie1 designed by the production designer of Movie1.
+movie_to_actor_to_movie_to_release-date,Movie1 release date of the film performed by the actor.
+movie_to_director_to_movie_to_release-date,When is the release date of the Movie1 directed by the director of Movie1?
+movie_to_writer_to_movie_to_release-date,When is the release date of the film written by the author of Movie1?
+movie_to_editor_to_movie_to_release-date,When did the Movie1 editor specify the release date of the film?
+movie_to_composer_to_movie_to_release-date,When is the release date of the Movie1 composed by the composer of Movie1?
+movie_to_cinematographer_to_movie_to_release-date,Movie1 release date of the film taken by the cinematographer.
+movie_to_production-designer_to_movie_to_release-date,The release date of the Movie1 designed by the production designer of Movie1.
+movie_to_actor_to_movie_to_Color,What is the color of the Movie1 acted by the actor of Movie1?
+movie_to_director_to_movie_to_Color,What color is the film directed by director Movie1?
+movie_to_writer_to_movie_to_Color,What is the color of the Movie1 writed by the writer of Movie1?
+movie_to_editor_to_movie_to_Color,What is the Movie1 color assigned by Movie1 editor?
+movie_to_composer_to_movie_to_Color,What color is the film created by Movie1 composer?
+movie_to_cinematographer_to_movie_to_Color,Movie1 photographers shoot the color of the film.
+movie_to_production-designer_to_movie_to_Color,What color is the film designed by the production designer of Movie1?

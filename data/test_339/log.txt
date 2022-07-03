@@ -1,0 +1,1 @@
+6_6: 使用sentenceTransformer inference正确逻辑链，准确率达到60左右
