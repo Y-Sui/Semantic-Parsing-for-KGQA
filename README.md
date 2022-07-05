@@ -208,4 +208,6 @@ Where, e2 is the unique identity assigned to "The Green Mile".
 # 1. download the checkpoint pre-trained model t5-base or t5-small from huggingface，save to ./checkpoint
 # 2. run the model, and evaluate, the output will be saved at ./output
 sh run.sh
+# 3. inference the output of the model, open the inference_339.ipynb and run the cells.
+
 ```
