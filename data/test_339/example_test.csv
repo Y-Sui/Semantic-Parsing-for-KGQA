@@ -26,8 +26,8 @@ editor_to_movie,What movie's editor is Person1?
 composer_to_movie,A movie created by Person1.
 cinematographer_to_movie,What movie's cinematographer is Person1?
 production-designer_to_movie,what is the name of the movie designed by Person1?
-production_to_movie,what movies are producted by C1?
-distributor_to_movie,The movie distributed by C1.
+production_to_movie,what movies are producted by Company1?
+distributor_to_movie,The movie distributed by Company1.
 movie_to_production,what is the name of the company produce Movie1??
 movie_to_distributor,Company assigned Movie1.
 movie_to_award,what award does Movie1 win?
@@ -74,20 +74,20 @@ production-designer_to_movie_to_writer,Who wrote the movie designed by Person1?
 production-designer_to_movie_to_editor,Who ecited the movie designed by Person1?
 production-designer_to_movie_to_composer,The person composed the movie designed by Person1.
 production-designer_to_movie_to_cinematographer,What is the name of the person photographed the movie designed by Person1?
-production_to_movie_to_actor,What is the name of the person acted the movie producted by C1?
-production_to_movie_to_director,Who directed the film made by C1?
-production_to_movie_to_writer,Who writed the movie producted by C1?
-production_to_movie_to_editor,Who chose the film made by C1?
-production_to_movie_to_composer,The person composed the movie producted by C1.
-production_to_movie_to_cinematographer,Who made the film made by C1?
-production_to_movie_to_production-designer,What is the name of the person designed the movie producted by C1?
-distributor_to_movie_to_actor,Who acted the movie distributed by C1?
-distributor_to_movie_to_director,Who directed the movie distributed by C1?
-distributor_to_movie_to_writer,The person writed the movie distributed by C1.
-distributor_to_movie_to_editor,What is the name of the person ecited the movie distributed by C1?
-distributor_to_movie_to_composer,Who created the film released by C1?
-distributor_to_movie_to_cinematographer,Who made the C1 release?
-distributor_to_movie_to_production-designer,What is the name of the person designed the movie distributed by C1?
+production_to_movie_to_actor,What is the name of the person acted the movie producted by Company1?
+production_to_movie_to_director,Who directed the film made by Company1?
+production_to_movie_to_writer,Who writed the movie producted by Company1?
+production_to_movie_to_editor,Who chose the film made by Company1?
+production_to_movie_to_composer,The person composed the movie producted by Company1.
+production_to_movie_to_cinematographer,Who made the film made by Company1?
+production_to_movie_to_production-designer,What is the name of the person designed the movie producted by Company1?
+distributor_to_movie_to_actor,Who acted the movie distributed by Company1?
+distributor_to_movie_to_director,Who directed the movie distributed by Company1?
+distributor_to_movie_to_writer,The person writed the movie distributed by Company1.
+distributor_to_movie_to_editor,What is the name of the person ecited the movie distributed by Company1?
+distributor_to_movie_to_composer,Who created the film released by Company1?
+distributor_to_movie_to_cinematographer,Who made the Company1 release?
+distributor_to_movie_to_production-designer,What is the name of the person designed the movie distributed by Company1?
 actor_to_movie_to_production,What is the name of the company producted the movie acted by Person1?
 director_to_movie_to_production,The company producted the movie directed by Person1.
 writer_to_movie_to_production,The company produced films written by Person1.
@@ -200,18 +200,18 @@ editor_to_movie_to_Color,The color of the movie ecited by Person1.
 composer_to_movie_to_Color,What is the color of the movie composed by Person1?
 cinematographer_to_movie_to_Color,Person1 the color of the movie taken.
 production-designer_to_movie_to_Color,What color is the film designed by Person1?
-production_to_movie_to_DoubanRating,C1 average rate of film production.
-distributor_to_movie_to_DoubanRating,What is the rating of the movie distributed by C1?
-production_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
-distributor_to_movie_to_IMDBRating,What is the IMDB rating of C1 films?
-production_to_movie_to_casts,What is the cast of the movie producted by C1?
-distributor_to_movie_to_casts,What is the cast of the movie distributed by C1?
-production_to_movie_to_runtimeMinutes,What is the length of the movie producted by C1?
-distributor_to_movie_to_runtimeMinutes,What is the length of the movie distributed by C1?
-production_to_movie_to_release-date,When is the release date of the film produced by C1?
-distributor_to_movie_to_release-date,When is the release date of the film released by C1?
-production_to_movie_to_Color,What color is the film made by C1?
-distributor_to_movie_to_Color,What color is the film released by C1?
+production_to_movie_to_DoubanRating,Company1 average rate of film production.
+distributor_to_movie_to_DoubanRating,What is the rating of the movie distributed by Company1?
+production_to_movie_to_IMDBRating,What is the IMDB rating of Company1 films?
+distributor_to_movie_to_IMDBRating,What is the IMDB rating of Company1 films?
+production_to_movie_to_casts,What is the cast of the movie producted by Company1?
+distributor_to_movie_to_casts,What is the cast of the movie distributed by Company1?
+production_to_movie_to_runtimeMinutes,What is the length of the movie producted by Company1?
+distributor_to_movie_to_runtimeMinutes,What is the length of the movie distributed by Company1?
+production_to_movie_to_release-date,When is the release date of the film produced by Company1?
+distributor_to_movie_to_release-date,When is the release date of the film released by Company1?
+production_to_movie_to_Color,What color is the film made by Company1?
+distributor_to_movie_to_Color,What color is the film released by Company1?
 director_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film directed by Person1?
 writer_to_movie_to_actor_to_primaryProfession,What is the occupation of the person who plays the film written by Person1?
 actor_to_movie_to_director_to_primaryProfession,What is the profession of the person who directed the movie acted by Person1?
@@ -254,48 +254,48 @@ actor_to_movie_to_director_to_trade-mark,The trade mark of the person who direct
 writer_to_movie_to_director_to_trade-mark,Person1 is the trademark of the film director.
 actor_to_movie_to_writer_to_trade-mark,The trade mark of the person who writed the movie acted by Person1.
 director_to_movie_to_writer_to_trade-mark,Person1 the trademark of the filmmaker of the director.
-production_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the movie producted by C1?
-distributor_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the movie distributed by C1?
+production_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the movie producted by Company1?
+distributor_to_movie_to_actor_to_primaryProfession,What is the profession of the person who acted the movie distributed by Company1?
 production_to_movie_to_director_to_primaryProfession,The profession of the person who directs the films made by Person1.
 distributor_to_movie_to_director_to_primaryProfession,Person1 release of the film director's profession.
-production_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the movie producted by C1?
+production_to_movie_to_writer_to_primaryProfession,What is the profession of the person who writed the movie producted by Company1?
 distributor_to_movie_to_writer_to_primaryProfession,The profession of the person who writed the movie distributed by Person1.
 production_to_movie_to_actor_to_Height,The height of the person who acted the movie producted by Person1.
 distributor_to_movie_to_actor_to_Height,Person1 released the height of the movie actor.
 production_to_movie_to_director_to_Height,The height of the person who directed the movie producted by Person1.
-distributor_to_movie_to_director_to_Height,What is the height of the director of the C1 release?
+distributor_to_movie_to_director_to_Height,What is the height of the director of the Company1 release?
 production_to_movie_to_writer_to_Height,Person1 the height of the author of the film.
-distributor_to_movie_to_writer_to_Height,What is the height of the person who writed the movie distributed by C1?
-production_to_movie_to_actor_to_Born,When is the birthday of the person who acted the movie producted by C1?
+distributor_to_movie_to_writer_to_Height,What is the height of the person who writed the movie distributed by Company1?
+production_to_movie_to_actor_to_Born,When is the birthday of the person who acted the movie producted by Company1?
 distributor_to_movie_to_actor_to_Born,Person1 release of the movie actor's birthday.
-production_to_movie_to_director_to_Born,What is the birthday of the person who directed the movie producted by C1?
+production_to_movie_to_director_to_Born,What is the birthday of the person who directed the movie producted by Company1?
 distributor_to_movie_to_director_to_Born,Person1 release of the film director's birthday.
-production_to_movie_to_writer_to_Born,When is the birthday of the person who writed the movie producted by C1?
-distributor_to_movie_to_writer_to_Born,When is the birthday of the person who writed the movie distributed by C1?
-production_to_movie_to_actor_to_Died,When is the deathday of the person who acted the movie producted by C1?
-distributor_to_movie_to_actor_to_Died,When is the deathday of the person who acted the movie distributed by C1?
-production_to_movie_to_director_to_Died,What is the deathday of the person who directed the movie producted by C1?
+production_to_movie_to_writer_to_Born,When is the birthday of the person who writed the movie producted by Company1?
+distributor_to_movie_to_writer_to_Born,When is the birthday of the person who writed the movie distributed by Company1?
+production_to_movie_to_actor_to_Died,When is the deathday of the person who acted the movie producted by Company1?
+distributor_to_movie_to_actor_to_Died,When is the deathday of the person who acted the movie distributed by Company1?
+production_to_movie_to_director_to_Died,What is the deathday of the person who directed the movie producted by Company1?
 distributor_to_movie_to_director_to_Died,The deathday of the person who directed the movie distributed by Person1.
 production_to_movie_to_writer_to_Died,The day of death of the author of the film produced by Person1.
 distributor_to_movie_to_writer_to_Died,Person1 the date of death of the author of the film released.
 production_to_movie_to_actor_to_Nicknames,The nickname of the person who acted the movie producted by Person1.
 distributor_to_movie_to_actor_to_Nicknames,The nickname of the person who acted the movie distributed by Person1.
-production_to_movie_to_director_to_Nicknames,What is the nickname of the person who made the film by director C1?
+production_to_movie_to_director_to_Nicknames,What is the nickname of the person who made the film by director Company1?
 distributor_to_movie_to_director_to_Nicknames,The nickname of the person who directed the movie distributed by Person1.
 production_to_movie_to_writer_to_Nicknames,The nickname of the person who writed the movie producted by Person1.
 distributor_to_movie_to_writer_to_Nicknames,The nickname of the author of the movie released by Person1.
 production_to_movie_to_actor_to_trivia,The trivia of the person who acted the movie producted by Person1.
-distributor_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the movie distributed by C1?
+distributor_to_movie_to_actor_to_trivia,What is the trivia of the person who acted the movie distributed by Company1?
 production_to_movie_to_director_to_trivia,Person1 film director's trivia.
-distributor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the film released by C1?
+distributor_to_movie_to_director_to_trivia,What is the trivia of the person who directed the film released by Company1?
 production_to_movie_to_writer_to_trivia,The trivia of the person who writed the movie producted by Person1.
-distributor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the movie distributed by C1?
-production_to_movie_to_actor_to_trade-mark,What is the trademark of the actor in the C1 film?
-distributor_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the movie distributed by C1?
+distributor_to_movie_to_writer_to_trivia,What is the trivia of the person who writed the movie distributed by Company1?
+production_to_movie_to_actor_to_trade-mark,What is the trademark of the actor in the Company1 film?
+distributor_to_movie_to_actor_to_trade-mark,What is the trade mark of the person who acted the movie distributed by Company1?
 production_to_movie_to_director_to_trade-mark,The trade mark of the person who directed the movie producted by Person1.
 distributor_to_movie_to_director_to_trade-mark,Person1 is a trademark of the film director.
 production_to_movie_to_writer_to_trade-mark,The trade mark of the person who writed the movie producted by Person1.
-distributor_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film released by C1?
+distributor_to_movie_to_writer_to_trade-mark,What is the trademark of the author of the film released by Company1?
 movie_to_actor_to_movie_to_DoubanRating,The average rate of the movie acted by the actor of Movie1.
 movie_to_director_to_movie_to_DoubanRating,What is the rating of the film directed by director Movie1?
 movie_to_writer_to_movie_to_DoubanRating,Movie1 average rate of films written by authors.
