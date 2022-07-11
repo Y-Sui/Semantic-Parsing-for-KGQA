@@ -17,7 +17,6 @@ class SoftEmbedding(nn.Module):
         self.random_range = random_range
         self.initialize_from_vocab = initialize_from_vocab
         parameters = self.initialize_embedding()
-        print(parameters)
         self.learned_embedding = nn.parameter.Parameter(parameters)
 
     def initialize_embedding(self):
